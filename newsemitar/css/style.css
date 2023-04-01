@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+}/*消除系統原本自帶的top margin*/
+
+
+
+/*header 開始*/
+header{
+    background-color: #DB497E;
+    height: 100px;
+    position: fixed;
+    width:100%;
+}
+.navContent{/*分割幻彩線和其他header內容的div*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo{
+    margin-left: 100px;
+    height:100px;
+    weight:200px;
+}
+nav ul{/*包著最新消息、商品分類等的container*/
+    margin-right:250px;
+    list-style-type: none;
+    
+}
+nav ul a{/*最新消息、商品分類等*/
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-right:30px;
+}
+.separationBar{/*像電競的那條幻彩線*/
+    width: 100%;
+    height:10px;
+}
+/*header結束*/
+
+
+
+/*中間的內容開始*/
+
+article{
+    text-align: center;
+}
+.proScreen{
+    height:725px;
+    width:100px;
+}
+.artiTitle{
+    font-weight: bold;
+    color:#DB497E;
+}
+.departLine{
+    height: 2px;
+    background-color: #DB497E;
+}
+.musicTrend{
+    height: 460px;
+    display: flex;
+    justify-content:center;
+    padding:30px;
+}
+.mtWrapper{
+    width:320px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:20px;
+
+}
+.mtPic{
+    width:320px;
+}
+.mtContext{
+    margin-top: 10px;
+    background-color:#FCF4F7;
+    height:150px;
+    padding:10px;
+    color:#702FB1;
+}
+.mtTitle{
+    font-size: 24px;
+    margin:0px;
+    font-weight: bold;
+    
+}
+.moreButton{
+    height:30px;
+}
+
+.songRank{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#FCF4F7;
+}
+.srWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.srWrapper p{
+    margin:0px;
+}
+.newArrival{
+    margin:80px;
+    height:fit-content;
+    
+}
+.naList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.naWrapper{
+    width: 200px;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.naContext{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.naContext div{
+    display:flex;
+    align-items:center;
+}
+.naContext img{
+    height:20px;
+    
+}
+.moreLong{
+    width:550px
+}
+
+
+/*中間的內容結束*/
+
+footer {
+    color:white;
+    background-color: #DB497E;
+    height: 200px;
+    width: auto;
+    text-align: center;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
