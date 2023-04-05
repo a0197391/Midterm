@@ -1,0 +1,200 @@
+@media  screen and (max-width:1080px ){
+    
+    .hamber{
+        display:block;
+        
+    }
+    
+    
+    nav{
+        display:none;
+    }
+    .navContent{/*分割幻彩線和其他header內容的div*/
+        padding: 0 20px;
+    }
+    .navContentRight{
+        width:25vw;
+        justify-content: space-around;
+    }
+    .proScreen{
+        width:100vw;
+
+    }
+    .proScreen a{
+        display: none;
+    }
+    .middleDiv{
+        display:none;
+    }
+    ul.slides{
+        width:100vw;
+        height:45vw;
+    }
+    li.slider{
+        width:100vw;
+
+    }
+    li.slider img{
+        width:100vw;
+    }
+    .slider:nth-of-type(1) {
+        width:100vw;
+    }
+    .slider:nth-of-type(2) {
+        width:100vw;
+    }
+    .slider:nth-of-type(3) {
+        width:100vw;
+    }
+    .slides input[type="radio"]:nth-of-type(2):checked~.slider{
+        transform: translatex(-100vw);
+    }
+    .slides input[type="radio"]:nth-of-type(3):checked~.slider{
+        transform: translatex(-200vw);
+    }
+    .controls-visible {
+        width:100%;
+    }
+
+    .musicTrend{
+        padding: 30px 0;
+        flex-wrap:wrap;
+        height:fit-content;
+        align-items: center;
+    }
+    .songRank{
+        flex-direction: column;
+        height:fit-content;
+    }
+    .srButton{
+        display:none;
+    }
+    .moreLong{
+        width:calc(100% - 40px);
+    }
+    footer{
+
+    }
+}
+
+/*RWD開始*/
+@media  screen and (max-width:450px ){
+    ul.slides{
+        width:100%;
+
+    }
+    li.slider{
+        width:100%;
+    }
+    li.slider img{
+        width:100%;
+    }
+    header{
+        height:75px;
+    }
+    .hamber img{
+        width:18px;
+    }
+    .logo{
+        width:76px;
+        height:52px;
+    }
+    .navContentLeft img{
+        height:20px;
+        margin-left: 8px;
+    }
+    input{
+        width:100px;
+        height:18px;
+    }
+    .proScreen{
+        padding-top: 150px;
+        height:calc(45vw + 50px);
+    }
+    .artiTitle{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .musicTrend{
+        width:fit-content;
+        padding:0px ;
+    }
+    .mtWrapper{
+        width:235px;
+    }
+    .mtPic{
+        width:235px;
+    }
+    .mtTitle{
+        font-size: 16px;
+    }
+    .mtContext{
+        height: 120px;
+    }
+    .mtContext a{
+        font-size: 12px;
+    }
+    .moreButton{
+        width:47px;
+        height:17px;
+        margin-left: 160px;
+    }
+    .srWrapper{
+        padding:20px 0; 
+    }
+
+    .srRank{
+        font-size: 30px;
+    }
+    .srPic{
+        width:140px;
+    }
+    .srContent{
+        font-size: 16px;
+    }
+    .srTitle{
+        font-size: 20px;
+    }
+    .newArrival{
+        margin:15px 40px 40px;
+    }
+    .naWrapper{
+        padding: 30px 0;
+        width:120px;
+    }
+    .naPic{
+        width:120px;
+    }
+    .naTitle{
+        font-size: 10px;
+    }
+    .naContext{
+        padding:0px;
+    }
+    .naPrice{
+        font-size: 10px;
+    }
+    .moreLong{
+        height:30px;
+    }
+    footer{
+        padding:15px;
+    }
+    .footerInfo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footerInfo p{
+        margin:5px 0;
+    }
+    .departLineShort{
+        display:none;
+    }
+    .footerContext{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footerNumber{
+        font-size: 10px;
+    }
+}
