@@ -1,0 +1,43 @@
+.header {
+  text-align: left;
+  display: flex;
+  height:inherit;
+  justify-content: space-between; 
+  align-items:center; 
+}
+
+.logo{
+  margin-top:20px;
+  margin-bottom:20px;
+  height: 100px;
+  width:142px;
+}
+
+.line{
+  width:100%;
+}
+
+
+@media (min-width: 768px) {
+  .headerTitle {
+    font-size: 1.8rem;
+  }
+}
+
+
+.iconWrap {
+  position: absolute;
+  right: 10rem;
+  top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 2.5rem);
+}
+
+@media (min-width: 768px) {
+  .iconWrap {
+    right: 10rem;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 4rem);
+  }
+}
