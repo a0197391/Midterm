@@ -30,6 +30,13 @@ function App() {
       </p>
     </div>
   )
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <Router />
+      </PersistGate>
+    </Provider>
+  );
 }
 
 export default App
+export default App;
