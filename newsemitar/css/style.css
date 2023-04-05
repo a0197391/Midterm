@@ -6,6 +6,9 @@
 body{
     margin:0px;
 }/*消除系統原本自帶的top margin*/
+article{
+    width:100%;
+}
 a{
     text-decoration: none;
     color:#702FB1;
@@ -39,17 +42,25 @@ input{
     height:30px;
     width:200px;
 } 
+.hamber{
+    display: none;
+}
 
 .navContent{/*分割幻彩線和其他header內容的div*/
-    padding: 0 220px;
+    padding: 0 calc(50vw - 540px);
     display: flex;
     height:inherit;
     justify-content: space-between;
     align-items:center;
 }
+.navContentRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .logo{
     height:100px;
-    weight:200px;
+
 }
 .navContentLeft{
     display: flex;
@@ -297,6 +308,8 @@ li.slider{
 }
 .naTitle{
     color: #DB497E;
+    display:flex;
+    text-align: start;
 }
 .naPrice{
     color:#702FB1;
@@ -358,4 +371,6 @@ footer {
     width:51px;
     height:51px;
 }
+
+
 
