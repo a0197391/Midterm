@@ -4,6 +4,8 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
+import './style.css'
+import './indexRwd.css'
 
 function Home() {
   const {
