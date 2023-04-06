@@ -35,7 +35,17 @@ export default function ProductItem({ product }) {
                <div className={styles.textGray}>
                   NT${product.price}
                </div>
+
+               <div>
+                 <a href="#"className={styles.icon}><img src="images/heart.png"/></a>
+                 <a href="#"><img src="images/shoppingCart.png"/></a>
+               </div>
+
+
             </div>
+
+           
+
 
          </div>
       </div>

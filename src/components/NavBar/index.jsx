@@ -11,7 +11,7 @@ export default function NavBar({ open, onClose }) {
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 首頁
             </NavLink>
-            {/* <NavLink to="/products/category/cookware"
+            <NavLink to="/products/category/cookware"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 最新消息
             </NavLink>
@@ -26,7 +26,7 @@ export default function NavBar({ open, onClose }) {
             <NavLink to="/products/category/textile"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 單曲排行
-            </NavLink>  */}
+            </NavLink> 
         </>
     )
 
