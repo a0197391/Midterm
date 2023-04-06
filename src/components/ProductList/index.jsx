@@ -3,14 +3,14 @@ import ProductItem from "../ProductItem";
 
 export default function ProductList({products}) {
   return (
-    <Row gutter={[32, 32]}>
+    <Row gutter={[24, 24]}>
     {products.map(product => (
         <Col 
           key={product.id} 
-          sm={{ span: 12 }} 
-          lg={{ span: 8 }}
-          xl={{ span: 6 }}
-          xxl={{ span: 4 }}
+          sm={{ span: 12 }} //2 576
+          lg={{ span: 8 }}//3個 992
+          xl={{ span: 8 }}//3個 1200
+          xxl={{ span: 4 }}//6個 1600
         >
           <ProductItem product={product}/>
         </Col>

@@ -1,11 +1,14 @@
 .item {
-   border-radius: 1%;
-   border: solid gray 1px;
-   padding: 0;
+   /* border-radius: 1%;
+   border: solid gray 1px; */
+   margin-left: 25px;
+   margin-right: 25px;
+   text-align: start;
+   /* align-items: center; */
 }
 
 .info {
-   padding: 1.2rem;
+   padding: 0rem;
 }
 
 .category {
@@ -14,7 +17,9 @@
 }
 
 .name {
-   margin-bottom: 0.5rem;
+   font-size: 20px;
+   margin-bottom: 2rem;
+   height: 79px;
 }
 
 .description {
@@ -29,5 +34,8 @@
 }
 
 .textGray {
-   opacity: 0.6;
+   opacity: 1;
+   font-size: 20px;
+   text-align: start;
 }
+
