@@ -74,7 +74,7 @@ input{
     justify-content: flex-end;
     align-items: center;
 }
-.navContentLeftTop img{
+.navContentLeftTopimg{
     margin-left: 20px;
 }
 nav ul a{/*最新消息、商品分類等*/

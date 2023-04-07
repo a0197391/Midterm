@@ -7,7 +7,7 @@ export default function NavBar({ open, onClose }) {
 
     const NavBarContent = () => (
         <>
-            <NavLink to="/"
+            {/* <NavLink to="/"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 首頁
             </NavLink>
@@ -26,7 +26,7 @@ export default function NavBar({ open, onClose }) {
             <NavLink to="/products/category/textile"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 單曲排行
-            </NavLink> 
+            </NavLink>  */}
         </>
     )
 

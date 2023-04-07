@@ -13,9 +13,11 @@
   width:142px;
 }
 
+
 .line{
   width:100%;
 }
+
 
 
 @media (min-width: 768px) {
@@ -27,7 +29,7 @@
 
 .iconWrap {
   position: absolute;
-  right: 10rem;
+  right: 0rem;
   top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 2.5rem);
@@ -35,7 +37,7 @@
 
 @media (min-width: 768px) {
   .iconWrap {
-    right: 10rem;
+    right: 6rem;
     top: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 4rem);

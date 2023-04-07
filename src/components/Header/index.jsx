@@ -20,10 +20,29 @@ export default function Header({ title, slogan }) {
                     <Link to="/">
                         <img src="/images/logo3.png" className={styles.logo}></img>
                     </Link>
-                    
                 </div>
 
-                <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
+                
+                <div className="navContentLeft">
+                    <div className="navContentLeftTop">
+                        <form>
+                            <input type="text" name="欄位名稱"/>
+                        </form>
+                        <a href="#" ><img src="images/login.png"/></a>
+                        <a href="#" ><img src="images/headerShoppingCart.png"/></a>
+                    </div>
+                    <nav>
+                        <ul >
+                            <a href="#">最新消息</a>
+                            <a href="#">商品分類</a>
+                            <a href="#">預購專區</a>
+                            <a href="#">熱銷排行</a>
+                            <a href="#">單曲排行</a>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
             </div>
 
             <img src="/images/separtionBar.png" className={styles.line}></img>
