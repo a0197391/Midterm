@@ -117,6 +117,31 @@ nav ul a{/*最新消息、商品分類等*/
      margin:0px;
 }
 
+.picTitle{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width:1050px;
+
+}
+.picIntroduction{
+    width:1050px;
+    color:#702FB1;
+
+}
+
+.picLogoText{
+    font-size: 40px;
+    font-weight: bold;
+    color:#DB497E;
+}
+
+.contextLogo{
+    height:60px;
+    width:60px;
+}
+
 .productPrice{
     color:#702FB1;
     font-size: 45px;
@@ -131,11 +156,65 @@ nav ul a{/*最新消息、商品分類等*/
     padding:20px;
 }
 
+
+
 .picVideo{
     width:790px;
     height:450px;
 }
 
+.contentTitle{
+    color:#DB497E;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentAndRecommend{
+    width:1050px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carlTitle{
+    width:inherit;
+    
+}
+
+.carTitle{
+    font-size: 26px;
+    margin:10px;
+    color:#DB497E;
+    font-weight: bold;
+}
+.carRight{
+    color:#702FB1;
+}
+
+.carLeft{
+    margin-top: 300px;
+    background-color: #FAE9EF;
+    display:flex;
+    width:287px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.carDepartLine{
+    width:inherit;
+    height:1px;
+    background-color: #DB497E;
+}
+.recommandWrapper{
+    width:200px;
+    color:#DB497E;
+}
+
+
+
+.carlPic{
+    width:200px;
+}
 
 
 footer {
