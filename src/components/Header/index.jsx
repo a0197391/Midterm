@@ -5,10 +5,11 @@ import styles from "./header.module.css";
 import HamburgerMenu from "../HamburgerMenu"
 import CartSummary from "../CartSummary";
 import SetColorMode from "../SetColorMode"
+import { Drawer } from 'antd';
 
 export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
-
+    
     return (
         <div className="container">
             <div className={styles.header}>
@@ -22,26 +23,24 @@ export default function Header({ title, slogan }) {
                     </Link>
                 </div>
 
-                
-                <div className="navContentLeft">
-                    <div className="navContentLeftTop">
-                        <form>
-                            <input type="text" name="欄位名稱"/>
-                        </form>
-                        <a href="#" ><img src="images/login.png"/></a>
-                        <a href="#" ><img src="images/headerShoppingCart.png"/></a>
-                    </div>
-                    <nav>
-                        <ul >
-                            <a href="#">最新消息</a>
-                            <a href="#">商品分類</a>
-                            <a href="#">預購專區</a>
-                            <a href="#">熱銷排行</a>
-                            <a href="#">單曲排行</a>
-                            
-                        </ul>
-                    </nav>
-                </div>
+                <div className={styles.navContentLeft}>
+                        <Link to="/">
+                            <div className={styles.navItems}>首頁</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>最新消息</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>商品分類</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>預購專區</div>
+                        </Link> 
+                        <Link to="/">
+                           <div className={styles.navItems}>單曲排行</div>
+                        </Link>
+                 </div> 
+              
                 {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
             </div>
 
@@ -55,5 +54,6 @@ export default function Header({ title, slogan }) {
         </div>
 
     );
+
 }
 
