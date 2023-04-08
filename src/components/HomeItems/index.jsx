@@ -2,11 +2,10 @@ import { useState } from 'react'
 import styles from "../HomeItems/homeItems.module.css";
 import { Carousel, Radio } from 'antd';
 
-import ProductList from "/Users/88696/OneDrive/桌面/Midterm/src/components/ProductList/";
 import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
 
-import ProductList from "../ProductList/";
-import products from "../../json/products.json";
+import HomeList from "../ProductList/";
+
 
 
 const contentStyle = {
@@ -129,7 +128,7 @@ function HomeItems() {
                 <a href="#" className={styles.artiTitle}>最新上架</a>
                 <div className={styles.departLine}></div>
                
-                <div className={styles.Newest}><ProductList products={products} /></div>
+                <div className={styles.Newest}><HomeList products={products} /></div>
 
                 <a href="#"><img src="images/moreLong.png" className={styles.moreLong}/></a>
               </div> 

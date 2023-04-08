@@ -435,6 +435,225 @@
     "countInStock": 10 
   }
   
+  ,
+  {
+    "id": "37",
+    "category": "band",
+    "name": "King Gnu「一途/逆夢」【初回生産限定盤】",
+    "sku": "sku_37",
+    "price": 1579,
+    "image": "/images/bandalbum/b1.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "38",
+    "category": "band",
+    "name": "YOASOBI-THE BOOK 2【完全生產限定盤】",
+    "sku": "sku_38",
+    "price": 1579,
+    "image": "/images/bandalbum/b2.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "39",
+    "category": "band",
+    "name": "ONE OK ROCK - 奢侈惡疾【通常盤】",
+    "sku": "sku_39",
+    "price": 1579,
+    "image": "/images/bandalbum/b3.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "40",
+    "category": "band",
+    "name": "SPYAIR 10周年【初回生產限定盤】",
+    "sku": "sku_40",
+    "price": 1579,
+    "image": "/images/bandalbum/b4.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "41",
+    "category": "band",
+    "name": "東京事變 - 歷年精選輯總合(2CD)",
+    "sku": "sku_41",
+    "price": 1579,
+    "image": "/images/bandalbum/b5.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "42",
+    "category": "band",
+    "name": "[ALEXANDROS] - 布魯克林夜未眠 (CD+DVD)",
+    "sku": "sku_42",
+    "price": 1579,
+    "image": "/images/bandalbum/b6.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "43",
+    "category": "band",
+    "name": "BUMP OF CHICKEN -アカシア / Gravity【通常盤】",
+    "sku": "sku_43",
+    "price": 1579,
+    "image": "/images/bandalbum/b7.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "44",
+    "category": "band",
+    "name": "亞細亞功夫世代 / 家鄉【2CD+DVD初回盤】",
+    "sku": "sku_44",
+    "price": 1579,
+    "image": "/images/bandalbum/b8.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "45",
+    "category": "band",
+    "name": "FLOW THE BEST～動畫神曲輯～【初回盤】",
+    "sku": "sku_45",
+    "price": 1579,
+    "image": "/images/bandalbum/b9.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "46",
+    "category": "band",
+    "name": "sumika - Fiction e.p【初回盤】",
+    "sku": "sku_46",
+    "price": 1579,
+    "image": "/images/bandalbum/b10.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "47",
+    "category": "band",
+    "name": "綠黃色社會 - 陽はまた昇るから【初回生産限定盤】",
+    "sku": "sku_47",
+    "price": 1579,
+    "image": "/images/bandalbum/b11.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "48",
+    "category": "band",
+    "name": "MY FIRST STORY - X【通常盤】",
+    "sku": "sku_48",
+    "price": 1579,
+    "image": "/images/bandalbum/b12.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "49",
+    "category": "band",
+    "name": "UVERworld - HOURGLASS【初回盤】",
+    "sku": "sku_49",
+    "price": 1579,
+    "image": "/images/bandalbum/b13.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "50",
+    "category": "band",
+    "name": "MAN WITH A MISSION - Break and Cross the Walls II",
+    "sku": "sku_50",
+    "price": 1579,
+    "image": "/images/bandalbum/b14.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "51",
+    "category": "band",
+    "name": "SUPER BEAVER - 愛しい人【初回生産限定盤】(CD+DVD)",
+    "sku": "sku_51",
+    "price": 1579,
+    "image": "/images/bandalbum/b15.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "52",
+    "category": "band",
+    "name": "BURNOUT SYNDROMES -BURNOUT SYNDROMES",
+    "sku": "sku_52",
+    "price": 1579,
+    "image": "/images/bandalbum/b16.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "53",
+    "category": "band",
+    "name": "GOOSE HOUSE - Flight【2CD初回盤】",
+    "sku": "sku_53",
+    "price": 1579,
+    "image": "/images/bandalbum/b17.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  },
+  {
+    "id": "54",
+    "category": "band",
+    "name": "UNISON SQUARE GARDEN - kaleido proud fiesta【初回盤】",
+    "sku": "sku_54",
+    "price": 1579,
+    "image": "/images/bandalbum/b18.png",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10 
+  }
+  
+  
   
 ]
 
