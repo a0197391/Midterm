@@ -3,14 +3,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap');
 
 .Newest{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     /* text-align: start; */
 }
 
+.p2nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
 
+.pageInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
 
+.departLineShort{
+    height: 50px;
+    width:20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: #DB497E;
+ }
 
+ .btn{
+    text-decoration-line: none;
+    color:#DB497E;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 15px;
+ }
+
+ .icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+ }
+
+ .icon2{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+ }
+
+ .listbtn{
+    display:flex;
+    align-self: end;
+    margin-bottom: 10px;
+  }
 /*中間的內容開始*/
 
 .HomeItems{

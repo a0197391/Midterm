@@ -31,7 +31,7 @@ export default function Header({ title, slogan }) {
                             <div className={styles.navItems}>最新消息</div>
                         </Link>
                         <Link to="/albums">
-                            <div className={styles.navItems}>商品分類</div>
+                            <div className={styles.navItems}>商品一覽</div>
                         </Link>
                         <Link to="/">
                             <div className={styles.navItems}>預購專區</div>
