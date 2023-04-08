@@ -109,95 +109,6 @@ nav ul a{/*最新消息、商品分類等*/
     align-items: center;
 }
 
-/* .proScreen{
-    height: 530px;
-    width:100%;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 170px;
-    padding-bottom: 80px;
-}
-
-.middleDiv{
-    width:800px;
-    height:0;
-}
-input[type="radio"]{
-    position:relative;
-    z-index: 1;
-    display: none;
-}
-
-.ulslides{
-    width:1080px;
-    height:488px;
-    background-color: #b2abad;
-    position:absolute;
-    z-index: auto;
-    overflow: hidden;
-    padding:0px;
-}
-
-li.slider{
-    margin:0;
-    padding:0;
-    width:inherit;
-    top:0;
-    left:0;
-    position:absolute;
-    transition: .5s transform ease-in-out;
-}
-.slider:nth-of-type(1){
-    background-color:antiquewhite;
-    width:1080px;
-    height:488px;
-}
-.slider:nth-of-type(2){
-    background-color: #702FB1;
-    left:100%;
-    width:1080px;
-    height:488px;
-}
-.slider:nth-of-type(3){
-    background-color: aqua;
-    left:200%;
-    width:1080px;
-    height:488px;
-}
-.controls-visible{
-    position:absolute;
-    width:1080px;
-    text-align: center;
-    bottom:20px;
-}
-.controls-visible label{
-    display:inline-block;
-    width:10px;
-    height:10px;
-    background-color: #F5B3CB;
-    border-radius: 50%;
-    margin :5px;
-
-}
-.slides input[type="radio"]:nth-of-type(1):checked~.controls-visible label:nth-of-type(1){
-    background-color: #DB497E;
-}
-.slides input[type="radio"]:nth-of-type(2):checked~.controls-visible label:nth-of-type(2){
-    background-color: #DB497E;
-}
-.slides input[type="radio"]:nth-of-type(3):checked~.controls-visible label:nth-of-type(3){
-    background-color: #DB497E;
-}
-.slides input[type="radio"]:nth-of-type(1):checked~.slider{
-    transform: translatex(0%);
-}
-.slides input[type="radio"]:nth-of-type(2):checked~.slider{
-    transform: translatex(-100%);
-}
-.slides input[type="radio"]:nth-of-type(3):checked~.slider{
-    transform: translatex(-200%);
-} */
 
 .radio{
     margin-bottom: 50px;
@@ -247,8 +158,13 @@ li.slider{
     margin:0px;
     font-weight: bold;
     text-align: start;
-    
+    transition: all 0.5s ease-in-out;
 }
+
+.mtTitle:hover{
+   color:#9987E0;
+}
+
 .moreButton{
     height:30px;
     position:relative;
@@ -347,12 +263,59 @@ li.slider{
 }
 
 .moreLong{
-    width: 100%;
-    margin-bottom: 100px;
+    width: 80%;
+    /* margin-bottom: 100px;  */
+    display: flex;
+    margin: 0rem 9rem 9rem 9rem;
+    /* margin-bottom: 100px; */
+    /* background: url(images/moreLong.png) top left no-repeat;   */
 }
 
 
 
+.hover {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0rem 9rem 9rem 9rem;
+}
+
+
+.hover img {
+  position:absolute;
+  width: 80%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+    opacity:0;
+}
+
+@media  screen and (max-width:1600px ){
+    
+    .musicTrend{
+        padding: 30px 0;
+        flex-wrap:wrap;
+        height:fit-content;
+        align-items: center;
+    }
+    .songRank{
+        flex-direction: row;
+        height:fit-content;
+    }
+    .srButton{
+        display:none;
+    }
+    .moreLong{
+        width:calc(100% - 40px);
+    }
+    /* footer{
+
+    } */
+}
 
 @media  screen and (max-width:1080px ){
     

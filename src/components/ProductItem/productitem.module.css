@@ -26,7 +26,14 @@
    font-size: 20px;
    margin-bottom: 2rem;
    height: 79px;
+   transition: all 0.5s ease-in-out;
 }
+
+.name:hover{
+   color: #F5B3CB;
+}
+
+
 
 .description {
    opacity: 0.6;
@@ -50,6 +57,9 @@
    padding-right: 12px;
 }
 
+.icon:hover{
+   opacity: 0.6;
+}
 
 .more{
    display:flex;

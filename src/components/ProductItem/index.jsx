@@ -38,7 +38,7 @@ export default function ProductItem({ product }) {
 
                <div>
                  <a href="#"className={styles.icon}><img src="images/heart.png"/></a>
-                 <a href="#"><img src="images/shoppingCart.png"/></a>
+                 <a href="#"className={styles.icon}><img src="images/shoppingCart.png"/></a>
                </div>
 
 

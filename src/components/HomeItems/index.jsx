@@ -5,7 +5,7 @@ import { Carousel, Radio } from 'antd';
 import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
 
 import HomeList from "../ProductList/";
-
+import Link from '../Link';
 
 
 const contentStyle = {
@@ -65,7 +65,7 @@ function HomeItems() {
                         <img src="images/mtPic1.png" className={styles.mtPic}/>
                         <div className={styles.mtContext}>
                             <a href="#" className={styles.mtTitle}>Vaundy新歌藏「61部漫畫」對白！奇蹟連動全網淚崩 </a>
-                            <a href="#">日本新生代歌手Vaundy和日本的反盜版漫畫組織「STOP!海賊版」合作，推出全新單曲〈ありがとう（謝謝）〉，其中......</a>
+                            <div>日本新生代歌手Vaundy和日本的反盜版漫畫組織「STOP!海賊版」合作，推出全新單曲〈ありがとう（謝謝）〉，其中......</div>
                             <a href ="#"><img src="images/more.png" className={styles.moreButton}/></a>
                         </div>
                     </div>
@@ -124,14 +124,22 @@ function HomeItems() {
                 </div> 
             </div>
 
-            <div>
+            {/* <div> */}
                 <a href="#" className={styles.artiTitle}>最新上架</a>
                 <div className={styles.departLine}></div>
                
                 <div className={styles.Newest}><HomeList products={products} /></div>
-
-                <a href="#"><img src="images/moreLong.png" className={styles.moreLong}/></a>
-              </div> 
+                
+                {/* <Link to="/albums" className={styles.moreLong}>
+                    <img src="images/moreLong.png" />
+                </Link> */}
+                  <Link to="/albums">
+                    <div className={styles.hover}>
+                      <img src="images/moreLonghover.png" className={styles.moreLong}/>
+                      <img src="images/moreLong.png" className={styles.moreLong}/>
+                    </div>
+                  </Link>
+            {/* </div>  */}
 
         </div>
 
