@@ -26,14 +26,17 @@ function Product() {
                }
             `}</style>
          </Helmet>
+
          <Header
             className="layoutHeader"
             title="Product Detail"
             slogan="An example made by Vite."
          />
+
          <div className="layoutContent container">
             <ProductDetail product={product} />
          </div>
+         
          <Footer className="layoutFooter" />
       </div>
    );

@@ -30,7 +30,7 @@ export default function Header({ title, slogan }) {
                         <Link to="/">
                             <div className={styles.navItems}>最新消息</div>
                         </Link>
-                        <Link to="/">
+                        <Link to="/albums">
                             <div className={styles.navItems}>商品分類</div>
                         </Link>
                         <Link to="/">

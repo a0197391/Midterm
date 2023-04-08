@@ -5,6 +5,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import Home from './pages/Home'
 import Category from './pages/Category';
 import Product from './pages/Product';
+import AlbumList from './pages/AlbumList';
 import { darkTheme, lightTheme } from './theme';
 import { selectLightMode } from "./redux/colorSLice";
 
@@ -17,6 +18,7 @@ function Router() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/albums" element={<AlbumList />} />
               <Route path="products">
                 <Route path="category/:categoryName" element={<Category />} />
                 <Route path="id/:productId" element={<Product />} />

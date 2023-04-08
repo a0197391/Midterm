@@ -93,13 +93,11 @@ function ProductDetail({ product }) {
                商品說明
             </div>
 
-            {/* <iframe width="672rem" height="379rem" src="https://www.youtube.com/embed/UXFxKYhJxT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+            <iframe width="672rem" height="379rem" src="https://www.youtube.com/embed/UXFxKYhJxT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
-            <div className={styles.video}>
-              <RwdYoutube
-               src="https://www.youtube.com/embed/UXFxKYhJxT8"
-              />
-            </div>
+            {/* <div className={styles.video}>
+              <RwdYoutube src="https://www.youtube.com/embed/UXFxKYhJxT8" />
+            </div>  */}
             
             <div className={styles.simtitle}>
                簡介

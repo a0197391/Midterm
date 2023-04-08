@@ -1,75 +1,75 @@
 [
   { 
     "id": "1",
-    "category": "Textile",
+    "category": "h",
     "name": "Yorushika/音樂畫冊《幻燈》專輯 ",
-    "sku": "sku_313354",
+    "sku": "sku_1",
     "price": 2158,
     "image": "/images/naPic1.png",
-    "description": "1",
-    "description_long": "1",
-    "currency": "NTD",
-    "countInStock": 10    
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
+    "currency": "USD",
+    "countInStock": 10   
   },
   {
     "id": "2",
-    "category": "Textile",
+    "category": "h",
     "name": " 優里 yuuri - 弐(貳)專輯【通常盤】",
-    "sku": "sku_313355",
+    "sku": "sku_2",
     "price": 795,
     "image": "/images/naPic2.png",
-    "description": "2",
-    "description_long": "2",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
     "currency": "USD",
-    "countInStock": 3    
+    "countInStock": 10   
   },
   {
     "id": "3",
-    "category": "Tableware",
+    "category": "h",
     "name": "Eve - ぼくらの【初回生產限定盤CD+Blu-ray Disc】",
-    "sku": "sku_313356",
+    "sku": "sku_3",
     "price": 895,
     "image": "/images/naPic3.png",
-    "description": "3",
-    "description_long": "3",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
     "currency": "USD",
-    "countInStock": 6 
+    "countInStock": 10 
   },
   {
     "id": "4",
-    "category": "Tableware",
+    "category": "h",
     "name": "SIX LOUNGE - キタカゼ【通常盤】",
-    "sku": "sku_313358",
+    "sku": "sku_4",
     "price": 520,
     "image": "/images/naPic4.png",
-    "description": "4",
-    "description_long": "4",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
     "currency": "USD",
-    "countInStock": 3 
+    "countInStock": 10 
   },
   {
     "id": "5",
-    "category": "Home-Accessories",
+    "category": "h",
     "name": "TREASURE - Here I Stand【通常盤】",
-    "sku": "sku_622147",
+    "sku": "sku_5",
     "price": 445,
     "image": "/images/naPic5.png",
-    "description": "5",
-    "description_long": "5",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
+    "description_long": "6",
     "currency": "USD",
-    "countInStock": 4 
+    "countInStock": 10 
   },
   {
     "id": "6",
-    "category": "Home-Accessories",
+    "category": "h",
     "name": "幾田りら YOASOBI - Sketch【初回生產限定盤】",
-    "sku": "sku_622146",
+    "sku": "sku_6",
     "price": 1310,
     "image": "/images/naPic6.png",
-    "description": "6",
+    "description": "曾負責《進擊的巨人》、《PROMARE》等多部暢銷動畫作品的作曲家澤野宏之與多位歌手合作的全新專輯!其中收錄TV動畫「86-不存在的戰區」第 1 季片尾曲「Avid 」、「Hands Up to the Sky」、TV動畫「86-不存在的戰區」第 2 季最終話片尾曲「LilaS」、TV 動畫「群青的開幕曲」片尾曲《OUTSIDERS》等4首歌曲，加上8首新歌，共12首歌曲。初回限定盤收錄去年 3 月 13 日在東京國際論壇大廳 A 舉行的“SawanoHiroyuki LIVE [nZk] 007”的現場LIVE錄像 的Blu-ray DVD。",
     "description_long": "6",
     "currency": "USD",
-    "countInStock": 5 
+    "countInStock": 10 
   }
   
 ]

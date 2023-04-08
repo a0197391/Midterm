@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from "../HomeItems/homeItems.module.css";
 import { Carousel, Radio } from 'antd';
 import ProductList from "/Users/88696/OneDrive/桌面/Midterm/src/components/ProductList/";
-import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/products.json";
+import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
 
 const contentStyle = {
   height: '525px',

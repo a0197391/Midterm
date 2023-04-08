@@ -356,12 +356,12 @@ li.slider{
 
 @media  screen and (max-width:1080px ){
     
-    /* .musicTrend{
+    .musicTrend{
         padding: 30px 0;
         flex-wrap:wrap;
         height:fit-content;
         align-items: center;
-    } */
+    }
     .songRank{
         flex-direction: column;
         height:fit-content;
