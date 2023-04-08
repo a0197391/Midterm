@@ -351,125 +351,17 @@ li.slider{
     margin-bottom: 100px;
 }
 
-/*中間的內容結束*/
-
-footer {
-    color:white;
-    background-color: #DB497E;
-    height: 247px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bold;
-    
-}
-.footerInfo{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin:10px 20%
-}
-.departLineShort{
-    height: 30px;
-    width:2px;
-    background-color: #fff;
-}
-.footerContext{
-    width:100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-.footerNumber{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.footerNumber p{
-    margin:5px;
-}
-.icons{
-    width:210px;
-    display:flex;
-    justify-content: space-between;
-}
-.footerIcon{
-    width:51px;
-    height:51px;
-}
 
 
 
 @media  screen and (max-width:1080px ){
     
-    .hamber{
-        display:block;
-        
-    }
-    
-    
-    nav{
-        display:none;
-    }
-    .navContent{/*分割幻彩線和其他header內容的div*/
-        padding: 0 20px;
-    }
-    .navContentRight{
-        width:25vw;
-        justify-content: space-around;
-    }
-    .proScreen{
-        width:100vw;
-
-    }
-    .proScreen a{
-        display: none;
-    }
-    .middleDiv{
-        display:none;
-    }
-    ul.slides{
-        width:100vw;
-        height:45vw;
-    }
-    li.slider{
-        width:100vw;
-
-    }
-    li.slider img{
-        width:100vw;
-    }
-    .slider:nth-of-type(1) {
-        width:100vw;
-    }
-    .slider:nth-of-type(2) {
-        width:100vw;
-    }
-    .slider:nth-of-type(3) {
-        width:100vw;
-    }
-    .slides input[type="radio"]:nth-of-type(2):checked~.slider{
-        transform: translatex(-100vw);
-    }
-    .slides input[type="radio"]:nth-of-type(3):checked~.slider{
-        transform: translatex(-200vw);
-    }
-    .controls-visible {
-        width:100%;
-    }
-
-    .musicTrend{
+    /* .musicTrend{
         padding: 30px 0;
         flex-wrap:wrap;
         height:fit-content;
         align-items: center;
-    }
+    } */
     .songRank{
         flex-direction: column;
         height:fit-content;
@@ -487,14 +379,13 @@ footer {
 
 /*RWD開始*/
 @media  screen and (max-width:450px ){
-    ul.slides{
-        width:100%;
-
-    }
-    li.slider{
+    .contentstyle{
         width:100%;
     }
-    li.slider img{
+    .controlsvisiblelabel{
+        width:100%;
+    }
+    .control{
         width:100%;
     }
     header{

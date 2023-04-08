@@ -5,10 +5,11 @@ import styles from "./header.module.css";
 import HamburgerMenu from "../HamburgerMenu"
 import CartSummary from "../CartSummary";
 import SetColorMode from "../SetColorMode"
+import { Drawer } from 'antd';
 
 export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
-
+    
     return (
         <div className="container">
             <div className={styles.header}>
@@ -20,10 +21,27 @@ export default function Header({ title, slogan }) {
                     <Link to="/">
                         <img src="/images/logo3.png" className={styles.logo}></img>
                     </Link>
-                    
                 </div>
 
-                <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
+                <div className={styles.navContentLeft}>
+                        <Link to="/">
+                            <div className={styles.navItems}>首頁</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>最新消息</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>商品分類</div>
+                        </Link>
+                        <Link to="/">
+                            <div className={styles.navItems}>預購專區</div>
+                        </Link> 
+                        <Link to="/">
+                           <div className={styles.navItems}>單曲排行</div>
+                        </Link>
+                 </div> 
+              
+                {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
             </div>
 
             <img src="/images/separtionBar.png" className={styles.line}></img>
@@ -36,5 +54,6 @@ export default function Header({ title, slogan }) {
         </div>
 
     );
+
 }
 

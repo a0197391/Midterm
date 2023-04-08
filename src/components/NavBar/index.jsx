@@ -7,7 +7,7 @@ export default function NavBar({ open, onClose }) {
 
     const NavBarContent = () => (
         <>
-            <NavLink to="/"
+            {/* <NavLink to="/"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 首頁
             </NavLink>
@@ -26,7 +26,7 @@ export default function NavBar({ open, onClose }) {
             <NavLink to="/products/category/textile"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 單曲排行
-            </NavLink> 
+            </NavLink>  */}
         </>
     )
 
@@ -49,3 +49,44 @@ export default function NavBar({ open, onClose }) {
 
     );
 }
+
+
+
+// const NavBarContent = () => (
+//     <>
+//        <Link to="/">
+//            <div className={styles.navItems}>首頁</div>
+//        </Link>
+//        <Link to="/">
+//            <div className={styles.navItems}>最新消息</div>
+//        </Link>
+//        <Link to="/">
+//            <div className={styles.navItems}>商品分類</div>
+//        </Link>
+//        <Link to="/">
+//            <div className={styles.navItems}>預購專區</div>
+//        </Link> 
+//        <Link to="/">
+//           <div className={styles.navItems}>單曲排行</div>
+//        </Link>
+//     </>
+// )
+
+// return (
+//     <>
+//         <div className={styles.navBar}>
+//             <NavBarContent />
+//         </div>
+//         <Drawer 
+//             title="漢堡選單" 
+//             placement="left" 
+//             onClose={onClose} 
+//             open={open} 
+//         >
+//             <div className={styles.drawer}>
+//                 <NavBarContent />
+//             </div>
+//         </Drawer>
+//     </>
+
+// );
