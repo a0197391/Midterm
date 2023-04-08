@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+
+body{
+    margin:0px;
+}/*消除系統原本自帶的top margin*/
+article{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:#702FB1;
+
+}
+ul{
+    list-style-type: none;
+    position:0;
+}
+p{
+    font-family: Roboto;
+    font-size:26;
+}
+
+
+
+/*header 開始*/
+header{
+    background-color: #fff;
+    height: 150px;
+    position: fixed;
+    width:100%;
+    z-index: 2;
+}
+input{
+    border:0;
+    background-color:#EAE0F3;
+    color:#DB497E;
+    border-radius:15px;
+    border-color: #EAE0F3;
+    height:30px;
+    width:200px;
+} 
+.hamber{
+    display: none;
+}
+
+.navContent{/*分割幻彩線和其他header內容的div*/
+    padding: 0 calc(50vw - 540px);
+    display: flex;
+    height:inherit;
+    justify-content: space-between;
+    align-items:center;
+}
+.navContentRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height:100px;
+
+}
+.navContentLeft{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content:flex-end;
+}
+.navContentLeftTop{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navContentLeftTop img{
+    margin-left: 20px;
+}
+nav ul a{/*最新消息、商品分類等*/
+    color:#DB497E;
+    font-weight: bold;
+    margin-left:30px;
+    font-size: 25px;
+}
+.separationBar{/*像電競的那條幻彩線*/
+    width: 100%;
+}
+/*header結束*/
+
+
+
+/*中間的內容開始*/
+
+article{
+    text-align: center;
+}
+.proScreen{
+    height: 530px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+.middleDiv{
+    width:800px;
+    height:0;
+}
+input[type="radio"]{
+    position:relative;
+    z-index: 1;
+    display: none;
+}
+
+ul.slides{
+    width:1080px;
+    height:488px;
+    background-color: #b2abad;
+    position:absolute;
+    z-index: auto;
+    overflow: hidden;
+    padding:0px;
+}
+li.slider{
+    margin:0;
+    padding:0;
+    width:inherit;
+    top:0;
+    left:0;
+    position:absolute;
+    transition: .5s transform ease-in-out;
+}
+.slider:nth-of-type(1){
+    background-color:antiquewhite;
+    width:1080px;
+    height:488px;
+}
+.slider:nth-of-type(2){
+    background-color: #702FB1;
+    left:100%;
+    width:1080px;
+    height:488px;
+}
+.slider:nth-of-type(3){
+    background-color: aqua;
+    left:200%;
+    width:1080px;
+    height:488px;
+}
+.controls-visible{
+    position:absolute;
+    width:1080px;
+    text-align: center;
+    bottom:20px;
+}
+.controls-visible label{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background-color: #F5B3CB;
+    border-radius: 50%;
+    margin :5px;
+
+}
+.slides input[type="radio"]:nth-of-type(1):checked~.controls-visible label:nth-of-type(1){
+    background-color: #DB497E;
+}
+.slides input[type="radio"]:nth-of-type(2):checked~.controls-visible label:nth-of-type(2){
+    background-color: #DB497E;
+}
+.slides input[type="radio"]:nth-of-type(3):checked~.controls-visible label:nth-of-type(3){
+    background-color: #DB497E;
+}
+.slides input[type="radio"]:nth-of-type(1):checked~.slider{
+    transform: translatex(0%);
+}
+.slides input[type="radio"]:nth-of-type(2):checked~.slider{
+    transform: translatex(-100%);
+}
+.slides input[type="radio"]:nth-of-type(3):checked~.slider{
+    transform: translatex(-200%);
+}
+
+
+.artiTitle{
+    font-weight: bold;
+    color:#DB497E;
+    font-size: 40px;
+}
+.departLine{
+    height: 2px;
+    background-color: #DB497E;
+}
+.musicTrend{
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    padding:30px;
+}
+.mtWrapper{
+    width:320px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:20px;
+
+}
+.mtPic{
+    width:320px;
+}
+.mtContext{
+    margin-top: 10px;
+    background-color:#FCF4F7;
+    height:200px;
+    padding:10px;
+    color:#702FB1;
+    text-align: start;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+}
+.mtTitle{
+    font-size: 20px;
+    margin:0px;
+    font-weight: bold;
+    text-align: start;
+    
+}
+.moreButton{
+    height:30px;
+    position:relative;
+    margin-left: 200px;
+}
+
+.songRank{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 380px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#FCF4F7;
+}
+.srWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.srWrapper p{
+    margin:0px;
+}
+.srRank{
+    font-family: Share Tech Mono;
+    color:#DB497E;
+    font-size: 40px;
+}
+.srPic{
+    margin:10px;
+}
+.srContext{
+    font-family: Share Tech Mono;
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.srTitle{
+    font-size: 26px;
+}
+.newArrival{
+    margin:0px 80px 80px;
+    height:fit-content;
+    
+}
+.naList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.naWrapper{
+    width: 200px;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.naContext{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:10px;
+}
+.naContext div{
+    display:flex;
+    align-items:center;
+    width: 60px;
+    justify-content: space-around;
+}
+.naPic{
+    margin-bottom:10px;
+}
+.naContext img{
+    height:20px;
+}
+.naTitle{
+    color: #DB497E;
+    display:flex;
+    text-align: start;
+}
+.naPrice{
+    color:#702FB1;
+}
+.moreLong{
+    width:550px
+}
+
+
+/*中間的內容結束*/
+
+footer {
+    color:white;
+    background-color: #DB497E;
+    height: 247px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.footerInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px 20%
+}
+.departLineShort{
+    height: 30px;
+    width:2px;
+    background-color: #fff;
+}
+.footerContext{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.footerNumber{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerNumber p{
+    margin:5px;
+}
+.icons{
+    width:210px;
+    display:flex;
+    justify-content: space-between;
+}
+.footerIcon{
+    width:51px;
+    height:51px;
+}
+
+
+

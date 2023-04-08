@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+
+body{
+    margin:0px;
+}/*消除系統原本自帶的top margin*/
+article{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:#702FB1;
+
+}
+ul{
+    list-style-type: none;
+    position:0;
+}
+p{
+    font-family: Roboto;
+    font-size:26;
+}
+
+
+
+/*header 開始*/
+header{
+    background-color: #fff;
+    height: 150px;
+    position: fixed;
+    width:100%;
+    z-index: 2;
+}
+input{
+    border:0;
+    background-color:#EAE0F3;
+    color:#DB497E;
+    border-radius:15px;
+    border-color: #EAE0F3;
+    height:30px;
+    width:200px;
+} 
+.hamber{
+    display: none;
+}
+
+.navContent{/*分割幻彩線和其他header內容的div*/
+    padding: 0 calc(50vw - 540px);
+    display: flex;
+    height:inherit;
+    justify-content: space-between;
+    align-items:center;
+}
+.navContentRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height:100px;
+
+}
+.navContentLeft{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content:flex-end;
+}
+.navContentLeftTop{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navContentLeftTop img{
+    margin-left: 20px;
+}
+nav ul a{/*最新消息、商品分類等*/
+    color:#DB497E;
+    font-weight: bold;
+    margin-left:30px;
+    font-size: 25px;
+}
+.separationBar{/*像電競的那條幻彩線*/
+    width: 100%;
+}
+/*header結束*/
+
+.topSpace{
+    padding-top: 270px;
+}
+.departLine{
+    height:2px;
+    background-color: #DB497E;
+
+}
+.productIllustration{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    padding: 70px 160px;
+
+}
+.piLeft{
+    height:780px;
+}
+
+.piPic{
+    width:500px;
+}
+
+.productTitle{
+    color:#DB497E;
+    font-size: 30px;
+     margin:0px;
+}
+
+.productPrice{
+    color:#702FB1;
+    font-size: 45px;
+    font-family: Share Tech Mono;
+    margin:0px;
+}
+
+.productIllustrationContext{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+
+.picVideo{
+    width:790px;
+    height:450px;
+}
+
+
+
+footer {
+    color:white;
+    background-color: #DB497E;
+    height: 247px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.footerInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px 20%
+}
+.departLineShort{
+    height: 30px;
+    width:2px;
+    background-color: #fff;
+}
+.footerContext{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.footerNumber{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerNumber p{
+    margin:5px;
+}
+.icons{
+    width:210px;
+    display:flex;
+    justify-content: space-between;
+}
+.footerIcon{
+    width:51px;
+    height:51px;
+}
