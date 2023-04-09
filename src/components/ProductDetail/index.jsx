@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { Row, Col, Select } from "antd";
+import { Button, notification } from "antd"
 import { useSearchParams } from 'react-router-dom';
 import AddToBasket from "../AddToBasket"
+import ImediateAdd from "/Users/88696/OneDrive/桌面/Midterm/src/components/ImediateAdd"
 import styles from "./productdetail.module.css"
 import RwdYoutube from './RWDyoutube'
 const { Option } = Select;
@@ -59,6 +61,9 @@ function ProductDetail({ product }) {
                   <p>
                      規格
                   </p>
+                  <Button>通常盤</Button>
+
+                  <Button>初回限定盤</Button>
                   
                   <div className={styles.qty}>
                      數量: {"   "}
@@ -80,7 +85,11 @@ function ProductDetail({ product }) {
                      Total Price: {product.price * qty}
                   </p>
                   
-                  <AddToBasket  product={product} qty={qty} />
+                  <div className={styles.addbtn}>
+                     <AddToBasket  product={product} qty={qty} />
+                     <ImediateAdd  product={product} qty={qty} />
+                  </div>
+
                </div>
             </div>
             
@@ -93,11 +102,11 @@ function ProductDetail({ product }) {
                商品說明
             </div>
 
-            <iframe width="672rem" height="379rem" src="https://www.youtube.com/embed/UXFxKYhJxT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {/* <iframe width="672rem" height="379rem" src="https://www.youtube.com/embed/UXFxKYhJxT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
             
-            {/* <div className={styles.video}>
+            <div className={styles.video}>
               <RwdYoutube src="https://www.youtube.com/embed/UXFxKYhJxT8" />
-            </div>  */}
+            </div> 
             
             <div className={styles.simtitle}>
                簡介
@@ -107,6 +116,13 @@ function ProductDetail({ product }) {
                {product.description}
             </div>
             
+            <div className={styles.songlist}>
+               收錄曲目
+            </div>
+
+            <div className={styles.pd}>
+               {product.description}
+            </div>
         </div>
         
       </Row>

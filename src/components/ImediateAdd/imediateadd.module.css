@@ -1,7 +1,6 @@
 .btn {
    width:250px;
    padding: 0%;
-   margin-right: 30px;
    /* height: 3rem;
    font-size: 1.2rem;
    padding: 0.5rem 2rem;
@@ -16,7 +15,6 @@
 .add {
    height: 76px;
    width: 250px;
-   margin-right: 20px;
    /* font-size: 1.2rem; */
    /* padding: 0.5rem 2rem; */
    /* font-weight: 200; */
@@ -26,9 +24,9 @@
    align-items: center; */
 }
 
-/* .image {
+.image {
    width: 1.5rem;
    height: 1.5rem;
    margin-right: 0.5rem;
    padding-bottom: 0.3rem;
-} */
+}

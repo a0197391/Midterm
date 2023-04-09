@@ -1,7 +1,7 @@
 import { Button, notification } from "antd"
 import { useDispatch } from "react-redux";
 import { addCartItems } from "../../redux/cartSlice";
-import styles from "./addtobasket.module.css"
+import styles from "./imediateadd.module.css"
 import { Basket } from "../Icons";
 
 export default function AddToCart({ product, qty }) {
@@ -33,9 +33,7 @@ export default function AddToCart({ product, qty }) {
     //   {/* <Basket color={"#ffffff"}/>Add To Basket */}
     //    <img src="/images/cart/addtoCart.png"></img>
     // </Button>
-
-    <Button type="link" className={styles.btn}><img src="/images/cart/addtoCart.png" type="primary" className={styles.add} onClick={addToCart}></img></Button>
-    
+    <Button type="link" className={styles.btn}><img src="/images/cart/imediately.png" type="primary" className={styles.add} onClick={addToCart}></img></Button>
 
   );
 }
