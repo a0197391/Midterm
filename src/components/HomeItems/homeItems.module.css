@@ -95,10 +95,50 @@ nav ul a{/*最新消息、商品分類等*/
 .HomeItems{
     text-align: center;
 }
+.btn {
+    width:52px;
+    padding: 0%;
+    /* margin-right: 30px; */
+    position: absolute !important;
+    top: 50% !important;
+    /* right: -30px!important; */
+    left:50px!important ;
+    z-index: 10 !important;
+    transform: translateY(-50%) !important;
+    margin: 1rem;
+ }
+
+ .btn2{
+    width:52px;
+    padding: 0%;
+    /* margin-right: 30px; */
+    position: absolute !important;
+    top: 50% !important;
+    /* right: -30px!important; */
+    right:50px!important ;
+    z-index: 10 !important;
+    transform: translateY(-50%) !important;
+    margin: 1rem;
+ }
+ 
+ .add {
+    height: 114px;
+    width: 52px;
+    margin-right: 20px;
+ }
 
 .controlsvisiblelabel{
 
     color:#DB497E;
+}
+
+.contentstyle{
+    height: 525px;
+    color: #fff;
+    line-height: 530px;
+    text-Align: center;
+    background: #DB497E;
+    margin-bottom: 0px;
 }
 
 .control{
@@ -336,10 +376,15 @@ nav ul a{/*最新消息、商品分類等*/
         width:calc(100% - 40px);
     }
     .control{
-        padding-top: 150px;
-        height:calc(45vw + 50px);
+        /* padding-top:100px; */
+        /* height:calc(45vw + 80px); */
+        height:368px;
     }
-
+    .contentstyle{
+        margin: auto;
+        /* padding-top:100px;
+        height:calc(45vw + 80px); */
+    }
     /* footer{
 
     } */
@@ -375,8 +420,15 @@ nav ul a{/*最新消息、商品分類等*/
         height:18px;
     }
     .control{
-        padding-top: 150px;
-        height:calc(45vw + 50px);
+        /* padding-top: 150px;
+        height:calc(45vw + 50px); */
+        height:203px;
+    }
+
+    .contentstyle{
+        margin-top: 20px;
+        padding-top:100px;
+        height:calc(45vw + 80px);
     }
 
     .artiTitle{

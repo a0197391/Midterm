@@ -1,21 +1,20 @@
 import { useState } from 'react'
 import styles from "../HomeItems/homeItems.module.css";
-import { Carousel, Radio } from 'antd';
+import { Carousel, Radio,Button} from 'antd';
 import HamburgerMenu from "../HamburgerMenu"
 import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
-
 import HomeList from "../ProductList/";
 import Link from '../Link';
+// const carouselEL = React.createRef()
 
-
-const contentStyle = {
-  height: '525px',
-  color: '#fff',
-  lineHeight: '530px',
-  textAlign: 'center',
-  background: '#DB497E',
-  marginBottom: '0px',
-};
+// const contentStyle = {
+//   height: '525px',
+//   color: '#fff',
+//   lineHeight: '530px',
+//   textAlign: 'center',
+//   background: '#DB497E',
+//   marginBottom: '0px',
+// };
 
 
 function HomeItems() {
@@ -25,6 +24,10 @@ function HomeItems() {
   const handlePositionChange = ({ target: { value } }) => {
     setDotPosition(value);
   };
+  // const onChange = (currentSlide) => {
+  //   // console.log(currentSlide);
+  // };
+
   return (
     <div className="container">
 
@@ -40,24 +43,44 @@ function HomeItems() {
       >
       </Radio.Group>
 
-      <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel}>
+      <Button type="link" className={styles.btn} 
+          onClick={() => {
+            carouselEL.current.prev();
+          }}
+      >
+        <img src="/images/buttomLeft.png" type="primary" className={styles.add}></img>
+      </Button>
+      <Button type="link" className={styles.btn2}
+          onClick={() => {
+              carouselEL.current.next();
+          }}
+      >
+          <img src="/images/buttomRight.png" type="primary" className={styles.add}></img>
+      </Button>
+
+      <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} autoplay>
         <div>
-        <h3 style={contentStyle}><img src="images/news1.png" className={styles.control}/></h3>
+        <h3 className={styles.contentStyle}><img src="images/news1.png" className={styles.control}/></h3>
         </div>
         <div>
-          <h3 style={contentStyle}><img src="images/news2.png" className={styles.control}/></h3>
+          <h3 className={styles.contentStyle}><img src="images/news2.png" className={styles.control}/></h3>
         </div>
         <div>
-          <h3 style={contentStyle}><img src="images/news3.png" className={styles.control}/></h3>
+          <h3 className={styles.contentStyle}><img src="images/news3.png" className={styles.control}/></h3>
         </div>
         <div>
-          <h3 style={contentStyle}><img src="images/news4.png" className={styles.control}/></h3>
+          <h3 className={styles.contentStyle}><img src="images/news4.png" className={styles.control}/></h3>
         </div>
         <div>
-          <h3 style={contentStyle}><img src="images/news5.png" className={styles.control}/></h3>
+          <h3 className={styles.contentStyle}><img src="images/news5.png" className={styles.control}/></h3>
         </div>
       </Carousel>
+       
       </div>
+
+   
+
+
 
             <div>
                 <a href="#" className={styles.artiTitle}>音樂趨勢</a>

@@ -46,6 +46,33 @@
 }
 
 
+.icon{
+ width: 2.5rem;
+ height: 2.5rem;
+ margin-right: 0.5rem;
+margin-left: 0.5rem;
+}
+
+.icon:hover{
+ /* opacity: 0.6; */
+ color: #F5B3CB;
+ cursor: pointer;
+}
+
+.icon:active{
+  /* opacity: 0.6; */
+  color: #ed8fb1;
+}
+
+.lefttop{
+  display: flex;
+  width: 446px;
+}
+
+
+
+
+
 
 @media (min-width: 768px) {
   .headerTitle {
@@ -56,10 +83,10 @@
 
 .iconWrap {
   position: absolute;
-  right: 0rem;
-  top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, 2.5rem);
+  /* right: 0rem;
+  top: 2rem; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 2.5rem); */
 }
 
 @media (min-width: 768px) {

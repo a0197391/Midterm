@@ -63,7 +63,13 @@
 .icon:hover{
    /* opacity: 0.6; */
    color: #F5B3CB;
+   cursor: pointer;;
 }
+
+.icon:active{
+   /* opacity: 0.6; */
+   color: #ed8fb1;
+ }
 
 .icon2{
    padding-left: 12px; 
@@ -75,11 +81,12 @@
 .icon2:hover{
   /* opacity: 0.6; */
   color: #F5B3CB;
+  cursor: pointer;
 }
 
 .icon2:active{
    /* opacity: 0.6; */
-   color: #F5B3CB;
+   color: #ed8fb1;
    background-image: url();
  }
 

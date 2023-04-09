@@ -4,6 +4,7 @@ import NavBar from "../NavBar";
 import styles from "./header.module.css";
 import HamburgerMenu from "../HamburgerMenu"
 import CartSummary from "../CartSummary";
+import {BsPersonCircle } from "react-icons/bs";
 import SetColorMode from "../SetColorMode"
 import { Drawer } from 'antd';
 
@@ -53,10 +54,14 @@ export default function Header({ title, slogan }) {
             </div>
 
             <img src="/images/separtionBar.png" className={styles.line}></img>
-
+           
             <div className={styles.iconWrap}>
                 {/* <SetColorMode/> */}
-                <CartSummary/>                
+                <div className={styles.lefttop}>
+                  {/* <input type="text" name="欄位名稱"/> */}
+                  <BsPersonCircle className={styles.icon}/>
+                  <CartSummary/>
+                </div>                
             </div>
 
         </div>
