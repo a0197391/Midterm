@@ -54,12 +54,34 @@
 }
 
 .icon{
-   padding-right: 12px;
+    padding-left: 12px; 
+   width: 3.0rem;
+   height: 3.0rem;
+
 }
 
 .icon:hover{
-   opacity: 0.6;
+   /* opacity: 0.6; */
+   color: #F5B3CB;
 }
+
+.icon2{
+   padding-left: 12px; 
+  width: 3.0rem;
+  height: 3.0rem;
+
+}
+
+.icon2:hover{
+  /* opacity: 0.6; */
+  color: #F5B3CB;
+}
+
+.icon2:active{
+   /* opacity: 0.6; */
+   color: #F5B3CB;
+   background-image: url();
+ }
 
 .more{
    display:flex;

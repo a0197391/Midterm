@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
 
+
 function Category() {
   const {
     token: { colorBgBase, colorTextBase },
@@ -35,6 +36,7 @@ function Category() {
         slogan="An example made by Vite."
       />
 
+      {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
 
       <div className="layoutContent container">
         <ProductList products={_products} />

@@ -310,6 +310,9 @@ nav ul a{/*最新消息、商品分類等*/
     .moreLong{
         width:calc(100% - 40px);
     }
+    /* .control{
+        width:100vw;
+    } */
 
 }
 
@@ -320,6 +323,7 @@ nav ul a{/*最新消息、商品分類等*/
         flex-wrap:wrap;
         height:fit-content;
         align-items: center;
+        flex-direction: column;
     }
     .songRank{
         flex-direction: column;
@@ -331,6 +335,11 @@ nav ul a{/*最新消息、商品分類等*/
     .moreLong{
         width:calc(100% - 40px);
     }
+    .control{
+        padding-top: 150px;
+        height:calc(45vw + 50px);
+    }
+
     /* footer{
 
     } */
@@ -365,11 +374,10 @@ nav ul a{/*最新消息、商品分類等*/
         width:100px;
         height:18px;
     }
-    .proScreen{
+    .control{
         padding-top: 150px;
         height:calc(45vw + 50px);
     }
-    
 
     .artiTitle{
         font-size: 20px;

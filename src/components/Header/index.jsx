@@ -24,6 +24,14 @@ export default function Header({ title, slogan }) {
                 </div>
 
                 <div className={styles.navContentLeft}>
+                     {/* <div className="navContentLeftTop">
+                         <form>
+                            <input type="text" name="欄位名稱"/>
+                         </form>
+                           <img src="images/login.png"/>
+                           <img src="images/headerShoppingCart.png"/>
+                     </div> */}
+                     
                         <Link to="/">
                             <div className={styles.navItems}>首頁</div>
                         </Link>

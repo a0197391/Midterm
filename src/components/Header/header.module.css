@@ -13,6 +13,13 @@
   width:142px;
 }
 
+.navContentLeftTop{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .navContentLeft{
   display:flex;
   align-self: end;

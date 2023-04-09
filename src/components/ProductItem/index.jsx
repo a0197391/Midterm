@@ -1,7 +1,9 @@
 
 import Link from '../Link';
 import styles from './productitem.module.css';
-
+import { HiShoppingCart } from "react-icons/hi";
+import { IoMdHeartEmpty } from "react-icons/io";
+import { IoMdHeart} from "react-icons/io";
 export default function ProductItem({ product }) {
 
    return (
@@ -37,8 +39,12 @@ export default function ProductItem({ product }) {
                </div>
 
                <div>
-                 <a href="#"className={styles.icon}><img src="images/heart.png"/></a>
-                 <a href="#"className={styles.icon}><img src="images/shoppingCart.png"/></a>
+                 {/* <a href="#"className={styles.icon}><img src="images/heart.png"/></a> */}
+                 {/* <a href="#"className={styles.icon}><img src="images/shoppingCart.png"/></a> */}
+                 
+                  <IoMdHeartEmpty className={styles.icon2}/>
+                  {/* <IoMdHeart className={styles.icon2}/>  */}
+                  <HiShoppingCart className={styles.icon}/>
                </div>
 
 

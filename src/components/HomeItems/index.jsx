@@ -27,10 +27,7 @@ function HomeItems() {
   };
   return (
     <div className="container">
-        {/* <HamburgerMenu
-            onClick={() => setIsOnTouch(!isOnTouch)}
-            isOnTouch={isOnTouch}
-        /> */}
+
     <div className={styles.HomeItems}>
         
     <div className={styles.radio}>
