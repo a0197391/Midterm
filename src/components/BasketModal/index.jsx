@@ -2,6 +2,7 @@ import { Modal, Button, Select, theme } from "antd";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addCartItems, removeCartItems } from "../../redux/cartSlice";
+import { HiShoppingCart } from "react-icons/hi";
 
 import styles from "./basketmodal.module.css"
 import { CartIcon } from "../Icons";
@@ -29,7 +30,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
          footer={null}
       >
          {cartItems.length === 0 ? (
-            <div>購物車是空的</div>
+            <div className={styles.empty}>購物車是空的</div>
          ) : (
             cartItems.map(item => (
                <li key={item.id} className={styles.item}>
@@ -80,7 +81,8 @@ export default function BasketModal({ isOpen, toggleModal }) {
             className={styles.btn}
             type="primary"
          >
-            <CartIcon color={"#ffffff"} />
+            <HiShoppingCart className={styles.icon}/>
+            {/* <CartIcon color={"#ffffff"} /> */}
             <span style={{ marginLeft: 12 }}>立即結帳</span>
          </Button>
       </Modal>

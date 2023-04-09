@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { Badge, theme } from "antd";
 import BasketModal from "../BasketModal"
 import { CartIcon } from "../Icons";
+import { HiShoppingCart } from "react-icons/hi";
 import styles from "./cartsummary.module.css"
 import { selectCartItems } from "../../redux/cartSlice";
 
@@ -20,7 +21,8 @@ export default function CartSummary() {
     <>
       <div onClick={toggleOpen} className={styles.cartSummary} >
         <Badge count={count} color="#6366F2" style={{color: 'white'}}>
-          <CartIcon color={colorTextBase} />
+          <HiShoppingCart className={styles.icon}/>
+          {/* <CartIcon color={colorTextBase} /> */}
         </Badge>
       </div>    
       <BasketModal

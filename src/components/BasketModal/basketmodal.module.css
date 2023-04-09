@@ -9,7 +9,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition:  ease-in-out;
+  background:linear-gradient(to right, #DB497E 20%,#9666C5 70%,#6087EB 100% );
 }
+
+.btn:hover{
+   background:linear-gradient(to right,#6087EB 20%, #a483c6 100%);
+}
+
+.btn:active{
+  background:linear-gradient(to right,#5980e4 20%, #9666C5 100%);
+}
+
+.empty{
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
 
 .item {
   display: flex;
@@ -55,3 +71,8 @@
   text-align: right;
 }
 
+.icon{
+  color:white;
+  width:1.5rem;
+  height:1.5rem;
+}

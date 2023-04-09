@@ -8,3 +8,20 @@
    margin-top: -4px;
  }
 
+ .icon{
+  color:#DB497E;
+  width: 2.5em;
+  height:2.5rem;
+}
+
+.icon:hover{
+  color:#F5B3CB;
+  width: 2.5em;
+  height:2.5rem;
+}
+
+.icon:active{
+  color:#ed8fb1;
+  width: 2.5em;
+  height:2.5rem;
+}
