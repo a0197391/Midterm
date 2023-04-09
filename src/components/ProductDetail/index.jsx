@@ -14,6 +14,20 @@ function ProductDetail({ product }) {
    const initQty = !!qtyFromBasket ? Number(qtyFromBasket) : product.countInStock > 0 ? 1 : 0
    const [qty, setQty] = useState(initQty);
 
+   const increment = () => {
+      if(product.countInStock > qty){
+		setQty(qty + 1);   // 可以想成 quantity = quantity + 1
+      }
+	};
+
+   const decrement = () => {
+      if ( qty > 1 ){
+         setQty(qty - 1); 
+      }
+	};
+
+
+
    useEffect(() => {
       setQty(initQty)
    }, [initQty])
@@ -58,14 +72,30 @@ function ProductDetail({ product }) {
                   {/* <p className={styles.status}>
                      Status: {product.countInStock > 0 ? "In Stock" : "Unavailable."}
                   </p> */}
-                  <p>
-                     規格
-                  </p>
-                  <Button>通常盤</Button>
 
-                  <Button>初回限定盤</Button>
+                  <div className={styles.typeword}>
+                     規格
+                     <div className={styles.typebtn}>
+                       <Button size={"large"} className={styles.type}>通常盤</Button>
+
+                       <Button size={"large"} className={styles.type}>初回限定盤</Button>
+                    </div>
+                  </div>
+
+                  <div className={styles.numtitle}>
+                     數量
+                     <div className={styles.block}>
+                     <button onClick={decrement}className={styles.numbtn2}>﹣</button>
+                     <p className={styles.num}>{qty}</p>
+                     <button onClick={increment} className={styles.numbtn1} >+</button>
+                  </div>
                   
-                  <div className={styles.qty}>
+                  </div>
+
+                  
+
+
+                  {/* <div className={styles.qty}>
                      數量: {"   "}
                      <Select
                         defaultValue={qty}
@@ -79,11 +109,13 @@ function ProductDetail({ product }) {
                            </Option>
                         ))}
                      </Select>
-                  </div>
+                  </div> */}
 
+      
+{/* 
                   <p className={styles.qty}>
                      Total Price: {product.price * qty}
-                  </p>
+                  </p> */}
                   
                   <div className={styles.addbtn}>
                      <AddToBasket  product={product} qty={qty} />
