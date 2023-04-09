@@ -47,7 +47,7 @@ export default function Header({ title, slogan }) {
             <img src="/images/separtionBar.png" className={styles.line}></img>
 
             <div className={styles.iconWrap}>
-                <SetColorMode/>
+                {/* <SetColorMode/> */}
                 <CartSummary/>                
             </div>
 

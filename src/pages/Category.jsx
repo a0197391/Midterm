@@ -34,9 +34,13 @@ function Category() {
         title={title}
         slogan="An example made by Vite."
       />
+
+
       <div className="layoutContent container">
         <ProductList products={_products} />
-      </div>      
+      </div> 
+      
+           
       <Footer className="layoutFooter" />
     </div>
   );

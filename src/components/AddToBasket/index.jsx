@@ -9,9 +9,9 @@ export default function AddToCart({ product, qty }) {
 
   const openNotification = () => {
     notification.open({
-      message: 'Shopping Notification',
+      message: '放入購物車',
       description:
-        `${qty} ${qty > 1 ? "pieces" : "piece"} of ${product.name} ${qty > 1 ? "have" : "has"} been added to your cart.`,
+        `${product.name} ${qty} 件`,
       placement: 'bottomRight'
     });
   };
