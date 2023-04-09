@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styles from "../HomeItems/homeItems.module.css";
 import { Carousel, Radio } from 'antd';
-
+import HamburgerMenu from "../HamburgerMenu"
 import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
 
 import HomeList from "../ProductList/";
@@ -19,13 +19,18 @@ const contentStyle = {
 
 
 function HomeItems() {
-//   const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
+  const [isOnTouch, setIsOnTouch] = useState(false);//navbar 
   const [dotPosition, setDotPosition] = useState('bottom');
   const handlePositionChange = ({ target: { value } }) => {
     setDotPosition(value);
   };
   return (
     <div className="container">
+        {/* <HamburgerMenu
+            onClick={() => setIsOnTouch(!isOnTouch)}
+            isOnTouch={isOnTouch}
+        /> */}
     <div className={styles.HomeItems}>
         
     <div className={styles.radio}>

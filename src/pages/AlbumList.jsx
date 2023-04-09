@@ -9,7 +9,7 @@ function AlbumList() {
   const {
     token: { colorBgBase, colorTextBase },
   } = theme.useToken();
-  const title = "首頁";
+  const title = "商品一覽";
 
   return (
     <div className="mainLayout">

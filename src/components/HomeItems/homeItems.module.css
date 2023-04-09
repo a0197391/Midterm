@@ -312,9 +312,7 @@ nav ul a{/*最新消息、商品分類等*/
     .moreLong{
         width:calc(100% - 40px);
     }
-    /* footer{
 
-    } */
 }
 
 @media  screen and (max-width:1080px ){
@@ -373,6 +371,8 @@ nav ul a{/*最新消息、商品分類等*/
         padding-top: 150px;
         height:calc(45vw + 50px);
     }
+    
+
     .artiTitle{
         font-size: 20px;
         font-weight: bold;
