@@ -6,7 +6,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
-
+import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Albumpage";
 
 function Category() {
   const {
@@ -37,6 +37,10 @@ function Category() {
       />
 
       {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
+      
+      {/* <div className="layoutContent container">
+        <Albumpage/>
+      </div> */}
 
       <div className="layoutContent container">
         <ProductList products={_products} />

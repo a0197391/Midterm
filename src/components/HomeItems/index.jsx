@@ -59,7 +59,7 @@ function HomeItems() {
                 <img src="/images/buttomRight.png" type="primary" className={styles.add}></img>
             </Button>
 
-            <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} /*autoplay ref={carouselEL} afterChange={onChange}*/>
+            <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} autoplay /*autoplay ref={carouselEL} afterChange={onChange}*/>
                 <div>
                   <div className={styles.contentStyle}><img src="images/news1.png" className={styles.control}/></div>
                 </div>
