@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from "../HomeItems/homeItems.module.css";
 import { Carousel, Radio,Button} from 'antd';
 import HamburgerMenu from "../HamburgerMenu"
-import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
+import products from "../../json/Home.json";
 import HomeList from "../ProductList/";
 import Link from '../Link';
 //const carouselEL = React.createRef();
