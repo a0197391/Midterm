@@ -43,7 +43,7 @@ export default function NavBar({ open, onClose }) {
             <div className={styles.navBar}>
                 <NavBarContent />
             </div>
-            <Drawer 
+            {/* <Drawer 
                 title="CATEGORY" 
                 placement="left" 
                 onClose={onClose} 
@@ -52,7 +52,7 @@ export default function NavBar({ open, onClose }) {
                 <div className={styles.drawer}>
                     <NavBarContent />
                 </div>
-            </Drawer>
+            </Drawer> */}
         </>
 
     );

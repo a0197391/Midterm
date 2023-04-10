@@ -1,20 +1,8 @@
 /* nav bar */
-.navBar {
-  display: none;
-  flex-direction: row;
-  justify-content:space-around;
-  margin-top: 20px;
-  width: 100%;
-}
-
-.drawer {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
 
 .navItem {
   font-size: 1rem;
+  margin-left: 2rem; 
   /* margin-bottom: 2rem;
   margin-left: 2rem; 
   cursor: pointer;
@@ -44,9 +32,6 @@
   .navBar {
     display: flex;
   }
-  .drawer {
-    display: none;
-  }
 
   .navItem {
     color: white;
@@ -63,6 +48,11 @@
 @media (max-width: 768px) {
   .navBar {
     display: flex;
+  }
+
+  .Drawer {
+    display: none;
+    background-color: brown;
   }
 
   .navItem {

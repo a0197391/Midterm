@@ -30,17 +30,12 @@ function Category() {
             }
         `}</style>
       </Helmet>
+      
       <Header
         className="layoutHeader"
         title={title}
         slogan="An example made by Vite."
       />
-
-      {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
-      
-      {/* <div className="layoutContent container">
-        <Albumpage/>
-      </div> */}
 
       <div className="layoutContent container">
         <ProductList products={_products} />
