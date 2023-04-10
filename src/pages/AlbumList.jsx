@@ -5,6 +5,9 @@ import Footer from "../components/Footer"
 import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Albumpage";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { useParams } from 'react-router-dom';
+import ProductList from "../components/ProductList";
+import products from "../json/products.json";
 
 
 function ScrollToTopOnMount() {
@@ -22,6 +25,20 @@ function AlbumList() {
     token: { colorBgBase, colorTextBase },
   } = theme.useToken();
   const title = "商品一覽";
+
+  const { categoryName } = useParams();
+  const _products = !categoryName
+      ? products
+      : products.filter(
+          x => x?.category.toUpperCase() === categoryName.toUpperCase(),
+
+      );
+  const _pd = !categoryName
+      ? products
+      : products.filter(
+          x => x?.sku.toUpperCase() === categoryName.toUpperCase(),
+
+      );
 
   return (
     <div className="mainLayout">
@@ -44,7 +61,9 @@ function AlbumList() {
 
       <div className="layoutContent container">
         <Albumpage/>
+        <ProductList products={_products} pd={_pd} />
       </div>
+      
 
       <Footer className="layoutFooter" />
     </div>

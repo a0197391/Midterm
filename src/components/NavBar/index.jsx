@@ -11,7 +11,7 @@ export default function NavBar({ open, onClose }) {
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 最新上架
             </NavLink> 
-            <NavLink to="/products/category/最新上架"
+            <NavLink to="/products/category/男歌手"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 男歌手
             </NavLink>
@@ -19,7 +19,7 @@ export default function NavBar({ open, onClose }) {
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 女歌手
             </NavLink>
-            <NavLink to="/products/category/最新上架"
+            <NavLink to="/products/category/團體"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 團體
             </NavLink>
@@ -27,11 +27,11 @@ export default function NavBar({ open, onClose }) {
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 樂團
             </NavLink>
-            <NavLink to="/products/category/最新上架"
+            <NavLink to="/products/category/原聲帶OST"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 原聲帶OST
             </NavLink>    
-            <NavLink to="/products/category/最新上架"
+            <NavLink to="/products/category/LP黑膠彩膠"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 LP黑膠/彩膠
             </NavLink> 

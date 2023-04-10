@@ -17,7 +17,6 @@ const handleChange = (value) => {
 };
 
 
-
 function AlbumList() {
   const [count, setCount] = useState(0)
   const [isOnTouch, setIsOnTouch] = useState(false);//navbar
@@ -82,8 +81,7 @@ function AlbumList() {
         </div>
     </div>
     
-    <div className={styles.Newest}><ProductList products={products} /></div>
-        
+     {/* <div className={styles.Newest}><ProductList products={products} /></div>  */}
         
     </div>
   )

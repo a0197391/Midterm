@@ -20,7 +20,7 @@ function Router() {
               <Route path="/" element={<Home />} />
               <Route path="/albums" element={<AlbumList />} />
               <Route path="products">
-                <Route path="category/:categoryName" element={<Category />} />
+                <Route path="category/:categoryName" element={<AlbumList />} />
                 <Route path="id/:productId" element={<Product />} />
               </Route>
             </Routes>
