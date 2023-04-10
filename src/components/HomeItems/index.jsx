@@ -5,7 +5,7 @@ import HamburgerMenu from "../HamburgerMenu"
 import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/Home.json";
 import HomeList from "../ProductList/";
 import Link from '../Link';
-// const carouselEL = React.createRef()
+//const carouselEL = React.createRef();
 
 // const contentStyle = {
 //   height: '525px',
@@ -44,7 +44,7 @@ function HomeItems() {
             >
             </Radio.Group>
 
-            {/* <Button type="link" className={styles.btn} 
+            <Button type="link" className={styles.btn} 
                 onClick={() => {
                   carouselEL.current.prev();
                 }}
@@ -57,24 +57,24 @@ function HomeItems() {
                 }}
             >
                 <img src="/images/buttomRight.png" type="primary" className={styles.add}></img>
-            </Button> */}
+            </Button>
 
-            <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} autoplay>
-              <div>
-              <h3 className={styles.contentStyle}><img src="images/news1.png" className={styles.control}/></h3>
-              </div>
-              <div>
-                <h3 className={styles.contentStyle}><img src="images/news2.png" className={styles.control}/></h3>
-              </div>
-              <div>
-                <h3 className={styles.contentStyle}><img src="images/news3.png" className={styles.control}/></h3>
-              </div>
-              <div>
-                <h3 className={styles.contentStyle}><img src="images/news4.png" className={styles.control}/></h3>
-              </div>
-              <div>
-                <h3 className={styles.contentStyle}><img src="images/news5.png" className={styles.control}/></h3>
-              </div>
+            <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} /*autoplay ref={carouselEL} afterChange={onChange}*/>
+                <div>
+                  <div className={styles.contentStyle}><img src="images/news1.png" className={styles.control}/></div>
+                </div>
+                <div>
+                  <div className={styles.contentStyle}><img src="images/news2.png" className={styles.control}/></div>
+                </div>
+                <div>
+                  <div className={styles.contentStyle}><img src="images/news3.png" className={styles.control}/></div>
+                </div>
+                <div>
+                  <div className={styles.contentStyle}><img src="images/news4.png" className={styles.control}/></div>
+                </div>
+                <div>
+                  <div className={styles.contentStyle}><img src="images/news5.png" className={styles.control}/></div>
+                </div>
             </Carousel>
           
          </div>

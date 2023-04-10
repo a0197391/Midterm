@@ -83,7 +83,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
          >
             <HiShoppingCart className={styles.icon}/>
             {/* <CartIcon color={"#ffffff"} /> */}
-            <span style={{ marginLeft: 12 }}>立即結帳</span>
+             <span style={{ marginLeft: 12 }}>立即結帳</span>
          </Button>
       </Modal>
    );

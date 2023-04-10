@@ -4,6 +4,8 @@ import styles from './productitem.module.css';
 import { HiShoppingCart } from "react-icons/hi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoMdHeart} from "react-icons/io";
+
+
 export default function ProductItem({ product }) {
 
    return (

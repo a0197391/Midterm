@@ -58,7 +58,7 @@ export default function Header({ title, slogan }) {
             <div className={styles.iconWrap}>
                 {/* <SetColorMode/> */}
                 <div className={styles.lefttop}>
-                  {/* <input type="text" name="欄位名稱"/> */}
+                  <input className={styles.input} type="search" name="欄位名稱"/>
                   <BsPersonCircle className={styles.icon}/>
                   <CartSummary/>
                 </div>                

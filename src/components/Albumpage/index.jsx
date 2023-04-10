@@ -29,14 +29,10 @@ function AlbumList() {
 
   return (
     <div className="container">
-        <HamburgerMenu
-            onClick={() => setIsOnTouch(!isOnTouch)}
-            isOnTouch={isOnTouch}
-        />
 
-    <div className={styles.HomeItems}>
-       <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
-    </div>
+      <div className={styles.HomeItems}>
+        <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
+      </div>
 
     <div className={styles.p2nav}>
       <div className={styles.pageInfo}>

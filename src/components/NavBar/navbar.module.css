@@ -60,3 +60,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .navBar {
+    display: flex;
+  }
+
+  .navItem {
+    padding-left: 0.1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+
+}
