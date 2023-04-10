@@ -12,7 +12,7 @@ export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
     
     return (
-        <div className="container">
+        <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.headerWwrap}>
                     <HamburgerMenu
