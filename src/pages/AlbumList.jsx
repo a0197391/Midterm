@@ -3,7 +3,18 @@ import { theme } from 'antd';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Albumpage";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
+function ScrollToTopOnMount() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function AlbumList() {
   const {
@@ -13,6 +24,7 @@ function AlbumList() {
 
   return (
     <div className="mainLayout">
+       <ScrollToTopOnMount/>
       <Helmet>    /*控制亮暗模式用*/
         <title>{title}</title>
         <style>{`

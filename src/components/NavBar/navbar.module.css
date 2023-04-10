@@ -1,8 +1,7 @@
 /* nav bar */
 
 .navItem {
-  font-size: 1rem;
-  margin-left: 2rem; 
+  /* font-size: 2rem; */
   /* margin-bottom: 2rem;
   margin-left: 2rem; 
   cursor: pointer;
@@ -34,10 +33,9 @@
   }
 
   .navItem {
-    color: white;
     font-size: 20px;
     margin-bottom: 0;
-    margin-left: 0;
+    margin-left: 65px;
     text-align: center;
   }
   .navItem:hover {
@@ -48,6 +46,12 @@
 @media (max-width: 768px) {
   .navBar {
     display: flex;
+  }
+
+  .navItem {
+    margin-bottom: 0;
+    margin-left: 25px;
+    text-align: center;
   }
 
   .Drawer {

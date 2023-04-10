@@ -5,6 +5,19 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProductDetail from "../components/ProductDetail";
 import products from "../json/products.json";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTopOnMount() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 
 function Product() {
    const {
@@ -17,6 +30,7 @@ function Product() {
 
    return (
       <div className="mainLayout">
+         <ScrollToTopOnMount/>
          <Helmet>
             <title>product</title>
             <style>{`
