@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Rwdyoutube.module.css';
+import styles from '../ProductDetail/RWDyoutube.module.css';
 
 export default function Rwdyoutube({ src }) {
     return (
