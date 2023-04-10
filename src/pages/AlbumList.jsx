@@ -6,6 +6,7 @@ import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Album
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
 

@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import ProductItem from "../ProductItem";
 
+
 export default function ProductList({products}) {
   return (
     <Row gutter={[24, 24]}>

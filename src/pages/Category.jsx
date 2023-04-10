@@ -6,7 +6,6 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
-import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Albumpage";
 
 function Category() {
   const {
@@ -36,12 +35,12 @@ function Category() {
         title={title}
         slogan="An example made by Vite."
       />
-
+      
       <div className="layoutContent container">
         <ProductList products={_products} />
-      </div> 
-      
-           
+      </div>
+
+   
       <Footer className="layoutFooter" />
     </div>
   );

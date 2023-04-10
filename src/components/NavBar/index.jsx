@@ -6,7 +6,7 @@ import styles from './navbar.module.css';
 export default function NavBar({ open, onClose }) {
 
     const NavBarContent = () => (
-        <>
+        <div className={styles.NavBar}>
             <NavLink to="/products/category/最新上架"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 最新上架
@@ -35,7 +35,7 @@ export default function NavBar({ open, onClose }) {
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 LP黑膠/彩膠
             </NavLink> 
-        </>
+        </div>
     )
 
     return (
