@@ -33,7 +33,7 @@ export default function AddToCart({ product, qty }) {
     //   {/* <Basket color={"#ffffff"}/>Add To Basket */}
     //    <img src="/images/cart/addtoCart.png"></img>
     // </Button>
-    <Button type="link" className={styles.btn}><img src="/images/cart/imediately.png" type="primary" className={styles.add} onClick={addToCart}></img></Button>
+    <Button type="Text" className={styles.btn}><img src="/images/cart/imediately.png" type="primary" className={styles.add} onClick={addToCart}></img></Button>
 
   );
 }

@@ -29,12 +29,13 @@ export default function AddToCart({ product, qty }) {
   };
 
   return (
-    // <Button type="primary" className={styles.btn} onClick={addToCart}>
-    //   {/* <Basket color={"#ffffff"}/>Add To Basket */}
-    //    <img src="/images/cart/addtoCart.png"></img>
-    // </Button>
 
-    <Button type="link" className={styles.btn}><img src="/images/cart/addtoCart.png" type="primary" className={styles.add} onClick={addToCart}></img></Button>
+    <Button type="Text" className={styles.btn} onClick={addToCart}>
+      {/* <Basket color={"#ffffff"}/>Add To Basket */}
+       <img src="/images/cart/addtoCart.png"></img>
+    </Button>
+
+   
     
 
   );
