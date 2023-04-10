@@ -7,7 +7,7 @@ import Category from './pages/Category';
 import Product from './pages/Product';
 import AlbumList from './pages/AlbumList';
 import { darkTheme, lightTheme } from './theme';
-import { selectLightMode } from "./redux/colorSLice";
+import { selectLightMode } from "./redux/colorSlice";
 
 function Router() {
   const lightMode = useSelector(selectLightMode);

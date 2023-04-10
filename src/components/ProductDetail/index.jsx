@@ -3,7 +3,7 @@ import { Row, Col, Select } from "antd";
 import { Button, notification } from "antd"
 import { useSearchParams } from 'react-router-dom';
 import AddToBasket from "../AddToBasket"
-import ImediateAdd from "/Users/88696/OneDrive/桌面/Midterm/src/components/ImediateAdd"
+import ImediateAdd from "../ImediateAdd"
 import styles from "./productdetail.module.css"
 import RwdYoutube from './RWDyoutube'
 const { Option } = Select;

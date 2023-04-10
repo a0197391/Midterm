@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import styles from "../Albumpage/AlbumList.module.css";
-import { Carousel, Radio } from 'antd';
+// import { Carousel, Radio } from 'antd';
 import NavBar from "../NavBar";
-import HamburgerMenu from "../HamburgerMenu"
-import CartSummary from "../CartSummary";
-import SetColorMode from "../SetColorMode"
-import { Drawer } from 'antd';
-import ProductList from "/Users/88696/OneDrive/桌面/Midterm/src/components/ProductList/";
-import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/products.json";
+// import HamburgerMenu from "../HamburgerMenu"
+// import CartSummary from "../CartSummary";
+// import SetColorMode from "../SetColorMode"
+// import { Drawer } from 'antd';
+// import ProductList from "/Users/88696/OneDrive/桌面/Midterm/src/components/ProductList/";
+// import products from "/Users/88696/OneDrive/桌面/Midterm/src/json/products.json";
 import Link from "../Link"
 import {Select, Space } from 'antd';
 

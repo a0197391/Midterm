@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async"
 import { theme } from 'antd';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import Albumpage from "/Users/88696/OneDrive/桌面/Midterm/src/components/Albumpage";
+import Albumpage from "../components/Albumpage";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useParams } from 'react-router-dom';
