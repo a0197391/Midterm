@@ -16,7 +16,7 @@ function ProductDetail({ product }) {
 
    const increment = () => {
       if(product.countInStock > qty){
-		setQty(qty + 1);   // 可以想成 quantity = quantity + 1
+		setQty(qty + 1); 
       }
 	};
 
@@ -27,16 +27,16 @@ function ProductDetail({ product }) {
 	};
 
 
-
    useEffect(() => {
       setQty(initQty)
    }, [initQty])
 
+
    return (
       <Row gutter={[24,24]}
-         style={{ justifyContent: 'space-between' }}
+         className={styles.all}
       >
-    
+      <div className={styles.productsell}>
             <Col
                   xs={{ span: 24 }}
                   lg={{ span: 8 }}
@@ -139,7 +139,7 @@ function ProductDetail({ product }) {
              </div>
          </Col>
 
-
+         </div>
 
        <div className={styles.description}>
             <div class={styles.departLineShort}></div>
@@ -159,7 +159,7 @@ function ProductDetail({ product }) {
             <Row gutter={[32, 32]}>
             <Col
                xs={{ span: 32 }}
-               lg={{ span: 23 }}
+               lg={{ span: 20 }}
                >  
                 <div className={styles.pd}>
                   {product.description}

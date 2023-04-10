@@ -31,3 +31,13 @@
    margin-right: 0.5rem;
    padding-bottom: 0.3rem;
 }
+
+@media  screen and (max-width:768px ){/*平板排版*/
+   .btn {
+      width:199px;
+      height: 60px;
+      padding: 0%;
+      margin-left: 30px;
+   }
+
+}

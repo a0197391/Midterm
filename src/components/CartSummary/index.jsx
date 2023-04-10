@@ -28,6 +28,7 @@ export default function CartSummary() {
       <BasketModal
         isOpen={isOpen}
         toggleModal={toggleOpen}
+        // onClick={console.log("555")}
       />
     </>
 
