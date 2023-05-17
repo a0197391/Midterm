@@ -31,9 +31,7 @@ function HomeItems() {
 
   return (
     <div className={styles.container}>
-
-      <div className={styles.HomeItems}>
-          
+      <div className={styles.HomeItems}> 
         <div className={styles.radio}>
             <Radio.Group
               onChange={handlePositionChange}
@@ -43,7 +41,6 @@ function HomeItems() {
               }}
             >
             </Radio.Group>
-
             <Button type="link" className={styles.btn} 
                 onClick={() => {
                   carouselEL.current.prev();
@@ -58,7 +55,6 @@ function HomeItems() {
             >
                 <img src="/images/buttomRight.png" type="primary" className={styles.add}></img>
             </Button>
-
             <Carousel dotPosition={dotPosition} className={styles.controlsvisiblelabel} autoplay /*autoplay ref={carouselEL} afterChange={onChange}*/>
                 <div>
                   <div className={styles.contentStyle}><img src="images/news1.png" className={styles.control}/></div>
@@ -76,7 +72,6 @@ function HomeItems() {
                   <div className={styles.contentStyle}><img src="images/news5.png" className={styles.control}/></div>
                 </div>
             </Carousel>
-          
          </div>
 
                 <div>
