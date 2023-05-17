@@ -354,7 +354,7 @@ p{
 }
 
 /*RWD開始*/
-@media  screen and (max-width:570px ){
+@media  screen and (max-width:580px ){
     .radio{
         width:100vw;
     }

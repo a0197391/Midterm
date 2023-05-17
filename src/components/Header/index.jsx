@@ -74,7 +74,14 @@ export default function Header({ title, slogan }) {
                         <img src="/images/logo3.png" className={styles.logo}></img>
                     </Link>
                 </div>
-                <div className={styles.navContentLeft}>
+                <div className={styles.iconWrap}>
+                    <div className={styles.lefttop}>
+                        <input className={styles.input} type="search" name="欄位名稱"/>
+                        <BsPersonCircle className={styles.icon}/>
+                        <CartSummary/>
+                    </div>
+                    {/* <SetColorMode/> */}
+                    <div className={styles.navContentLeft}>
                     <Link to="/">
                             <div className={styles.navItems}>首頁</div>
                     </Link>
@@ -90,18 +97,12 @@ export default function Header({ title, slogan }) {
                     <Link to="/">
                         <div className={styles.navItems}>單曲排行</div>
                     </Link>
-                </div> 
-                {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
-                <div className={styles.lefttop}>
-                  <input className={styles.input} type="search" name="欄位名稱"/>
-                  <BsPersonCircle className={styles.icon}/>
-                  <CartSummary/>
+                    </div> 
+                    {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
+                    
                 </div>
             </div>
-            <div className={styles.iconWrap}>
-                {/* <SetColorMode/> */}
-                             
-            </div>
+            
             <img src="/images/separtionBar.png" className={styles.line}></img>
 
         </div>
