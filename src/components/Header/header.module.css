@@ -191,3 +191,12 @@
   }
 
 }
+@media  screen and (max-width:570px ){
+   .line{
+    width:100vw;
+    height:20px;
+
+
+
+  }
+}
