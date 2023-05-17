@@ -28,7 +28,7 @@ export default function Header({ title, slogan }) {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <div className={styles.headerWwrap}>
+                <div className={styles.headerWrap}>
                     <div className={styles.Drawer}>
                         {/* <Button type="Text" onClick={showDrawer} icon={<RxHamburgerMenu/>}></Button> */}
                         <RxHamburgerMenu className={styles.Drawericon} onClick={showDrawer}/>
@@ -50,19 +50,19 @@ export default function Header({ title, slogan }) {
                             }
       >
                             <Link to="/">
-               <div className={styles.nav}>首頁</div>
+                                <div className={styles.nav}>首頁</div>
                             </Link>
                             <Link to="/">
-                <div className={styles.nav}>最新消息</div>
+                                <div className={styles.nav}>最新消息</div>
                             </Link>
                             <Link to="/albums">
-                 <div className={styles.nav}>商品一覽</div>
+                                <div className={styles.nav}>商品一覽</div>
                             </Link>
                             <Link to="/">
-                <div className={styles.nav}>預購專區</div>
+                                <div className={styles.nav}>預購專區</div>
                             </Link> 
                             <Link to="/">
-                <div className={styles.nav}>單曲排行</div>
+                                <div className={styles.nav}>單曲排行</div>
                             </Link>
                         </Drawer>
                     </div>
@@ -92,16 +92,17 @@ export default function Header({ title, slogan }) {
                     </Link>
                 </div> 
                 {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
-            </div>
-            <img src="/images/separtionBar.png" className={styles.line}></img>
-            <div className={styles.iconWrap}>
-                {/* <SetColorMode/> */}
                 <div className={styles.lefttop}>
                   <input className={styles.input} type="search" name="欄位名稱"/>
                   <BsPersonCircle className={styles.icon}/>
                   <CartSummary/>
-                </div>                
+                </div>
             </div>
+            <div className={styles.iconWrap}>
+                {/* <SetColorMode/> */}
+                             
+            </div>
+            <img src="/images/separtionBar.png" className={styles.line}></img>
 
         </div>
 
