@@ -192,11 +192,12 @@
 
 }
 @media  screen and (max-width:570px ){
+  .logo{
+    width:100px;
+    height:80px;
+  }
    .line{
     width:100vw;
-    height:20px;
-
-
-
+    height:10px;
   }
 }
