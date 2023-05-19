@@ -144,7 +144,6 @@ function HomeItems() {
                 {/* <div> */}
                     <a href="#" className={styles.artiTitle}>最新上架</a>
                     <div className={styles.departLine}></div>
-                  
                     <div className={styles.Newest}><HomeList products={products} /></div>
                     
                     {/* <Link to="/albums" className={styles.moreLong}>

@@ -189,7 +189,7 @@ p{
 }
 
 .newArrival{
-    margin:0px 80px 80px;
+    
     height:fit-content;
     
 }
@@ -355,7 +355,16 @@ p{
 
 /*RWD開始*/
 @media  screen and (max-width:580px ){
+
     .radio{
         width:100vw;
     }
+    .Newest{
+        width:330px;
+        display:flex;
+        align-items: center;
+    }
+
+    
+
 }
