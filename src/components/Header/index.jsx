@@ -82,21 +82,21 @@ export default function Header({ title, slogan }) {
                     </div>
                     {/* <SetColorMode/> */}
                     <div className={styles.navContentLeft}>
-                    <Link to="/">
-                            <div className={styles.navItems}>首頁</div>
-                    </Link>
-                    <Link to="/">
-                            <div className={styles.navItems}>最新消息</div>
-                    </Link>
-                    <Link to="/albums">
-                            <div className={styles.navItems}>商品一覽</div>
-                    </Link>
-                    <Link to="/">
-                            <div className={styles.navItems}>預購專區</div>
-                    </Link> 
-                    <Link to="/">
-                        <div className={styles.navItems}>單曲排行</div>
-                    </Link>
+                        <Link to="/">
+                                <div className={styles.navItems}>首頁</div>
+                        </Link>
+                        <Link to="/">
+                                <div className={styles.navItems}>最新消息</div>
+                        </Link>
+                        <Link to="/albums">
+                                <div className={styles.navItems}>商品一覽</div>
+                        </Link>
+                        <Link to="/">
+                                <div className={styles.navItems}>預購專區</div>
+                        </Link> 
+                        <Link to="/">
+                            <div className={styles.navItems}>單曲排行</div>
+                        </Link>
                     </div> 
                     {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
                     

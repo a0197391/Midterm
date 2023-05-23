@@ -7,6 +7,17 @@ import Footer from "../components/Footer"
 import ProductList from "../components/ProductList";
 import products from "../json/products.json";
 
+function ScrollToTopOnMount() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+
 function Category() {
   const {
     token: { colorBgBase, colorTextBase },
@@ -20,6 +31,7 @@ function Category() {
 
   return (
     <div className="mainLayout">
+      <ScrollToTopOnMount/>
       <Helmet>
         <title>{title}</title>
         <style>{`
