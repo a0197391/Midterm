@@ -11,6 +11,7 @@ import {RxHamburgerMenu} from "react-icons/rx";
 import UserInfo from "../UserInfo";
 // import {IoClose} from "react-icons/io";
 import 'animate.css';
+import AlertButton from "../BounceInButton";
 
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
@@ -26,6 +27,9 @@ export default function Header({ title, slogan }) {
     const onClose = () => {
       setOpen(false);
     };
+
+        
+
 
     return (
         <div className={styles.container}>
@@ -86,7 +90,9 @@ export default function Header({ title, slogan }) {
                     {/* <SetColorMode/> */}
                     <div className={styles.navContentLeft}>
                         <Link to="/">
-                                <div className={styles.navItems}>首頁</div>
+                            <div className={styles.navItems}>
+                                <AlertButton/>
+                            </div>
                         </Link>
                         <Link to="/">
                                 <div className={styles.navItems}>最新消息</div>
