@@ -8,6 +8,7 @@ import {BsPersonCircle } from "react-icons/bs";
 import SetColorMode from "../SetColorMode"
 // import { Drawer } from 'antd';
 import {RxHamburgerMenu} from "react-icons/rx";
+import UserInfo from "../UserInfo";
 // import {IoClose} from "react-icons/io";
 
 import { PlusOutlined } from '@ant-design/icons';
@@ -77,7 +78,8 @@ export default function Header({ title, slogan }) {
                 <div className={styles.iconWrap}>
                     <div className={styles.lefttop}>
                         <input className={styles.input} type="search" name="欄位名稱"/>
-                        <BsPersonCircle className={styles.icon}/>
+                        <UserInfo/>
+                        {/* <BsPersonCircle className={styles.icon}/> */}
                         <CartSummary/>
                     </div>
                     {/* <SetColorMode/> */}

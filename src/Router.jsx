@@ -6,6 +6,9 @@ import Home from './pages/Home'
 import Category from './pages/Category';
 import Product from './pages/Product';
 import AlbumList from './pages/AlbumList';
+import Login from './pages/Login';
+import Register from './pages/Register';
+
 import { darkTheme, lightTheme } from './theme';
 import { selectLightMode } from "./redux/colorSlice";
 
@@ -23,6 +26,14 @@ function Router() {
                 <Route path="category/:categoryName" element={<AlbumList />} />
                 <Route path="id/:productId" element={<Product />} />
               </Route>
+
+              <Route path="auth">
+                  <Route path="login" element={<Login />} />
+                  <Route path="register" element={<Register />} />
+               </Route>
+
+
+
             </Routes>
           </BrowserRouter>
         </HelmetProvider>

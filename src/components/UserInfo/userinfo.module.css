@@ -1,0 +1,37 @@
+.userInfo {
+    cursor: pointer;
+  }
+  
+  .userInfoText {
+    font-size: 0.5rem;
+    opacity: 0.6;
+    margin-left: 0.8rem;
+  }
+  
+  .userInfoOutlined {
+    /* font-size: 1rem;
+    padding-left: 0.4rem; */
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .userInfoText {
+      font-size: 0.7rem;
+      margin-top: 0.3rem;
+    }
+  
+    .userInfoOutlined {
+      font-size: 1.5rem;
+      padding-left: 0.2rem;
+    }
+  }
+
+  /* .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+   } */
