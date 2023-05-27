@@ -5,8 +5,9 @@ import styles from "./userinfo.module.css";
 
 export default function UserInfo(props) {
    const navigate = useNavigate();
+  
    const goToProfile = () => {
-      navigate("/auth/login");
+      navigate("/auth/login?redirect=/auth/profile");
    };
 
 

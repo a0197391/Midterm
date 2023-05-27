@@ -8,6 +8,7 @@ import Product from './pages/Product';
 import AlbumList from './pages/AlbumList';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Profile from './pages/Profile';
 
 import { darkTheme, lightTheme } from './theme';
 import { selectLightMode } from "./redux/colorSlice";
@@ -27,10 +28,16 @@ function Router() {
                 <Route path="id/:productId" element={<Product />} />
               </Route>
 
-              <Route path="auth">
+              {/* <Route path="auth">
                   <Route path="login" element={<Login />} />
                   <Route path="register" element={<Register />} />
-               </Route>
+               </Route> */}
+            <Route path="auth">
+              <Route path="login" element={<Login />} />
+              <Route path="register" element={<Register />} />
+              <Route path="profile" element={<Profile />} />
+            </Route>
+
 
 
 
