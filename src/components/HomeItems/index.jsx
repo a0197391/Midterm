@@ -82,7 +82,7 @@ function HomeItems() {
                             <img src="images/mtPic1.png" className={styles.mtPic}/>
                             <div className={styles.mtContext}>
                                 <a href="#" className={styles.mtTitle}>Vaundy新歌藏「61部漫畫」對白！奇蹟連動全網淚崩 </a>
-                                <div>日本新生代歌手Vaundy和日本的反盜版漫畫組織「STOP!海賊版」合作，推出全新單曲〈ありがとう（謝謝）〉，其中......</div>
+                                <div className={styles.mtText}>日本新生代歌手Vaundy和日本的反盜版漫畫組織「STOP!海賊版」合作，推出全新單曲〈ありがとう（謝謝）〉，其中......</div>
                                 <a href ="#"><img src="images/more.png" className={styles.moreButton}/></a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ function HomeItems() {
                             <img src="images/mtPic2.png" className={styles.mtPic}/>
                             <div className={styles.mtContext}>
                                 <a href="#" className={styles.mtTitle}>回憶殺！《THE FIRST TAKE 》邀請松本梨香獻唱主題曲，向小智與皮卡丘道別！ </a>
-                                <a href="#">
+                                <a href="#" className={styles.mtText}>
                                     寶可夢（神奇寶貝）系列動畫於1997年推出後......</a>
                                 <a href ="#"><img src="images/more.png" className={styles.moreButton}/></a>
                             </div>
@@ -99,7 +99,7 @@ function HomeItems() {
                             <img src="images/mtPic3.png" className={styles.mtPic} />
                             <div className={styles.mtContext}>
                                 <a href="#" className={styles.mtTitle}>日本音樂大師坂本龍一逝世 終年71歲 </a>
-                                <a href="#">曾奪得奧斯卡最佳原創音樂獎的著名電影配樂大師坂本龍一，於3月28日在......</a>
+                                <a href="#"className={styles.mtText}>曾奪得奧斯卡最佳原創音樂獎的著名電影配樂大師坂本龍一，於3月28日在......</a>
                                 <a href ="#"><img src="images/more.png" className={styles.moreButton}/></a>
                             </div>
                         </div>
