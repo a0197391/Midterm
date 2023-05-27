@@ -9,6 +9,7 @@ import SetColorMode from "../SetColorMode"
 // import { Drawer } from 'antd';
 import {RxHamburgerMenu} from "react-icons/rx";
 // import {IoClose} from "react-icons/io";
+import 'animate.css';
 
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
@@ -49,7 +50,7 @@ export default function Header({ title, slogan }) {
                                 </Space>
                             }
       >
-                            <Link to="/">
+                            <Link to="/" >
                                 <div className={styles.nav}>首頁</div>
                             </Link>
                             <Link to="/">
