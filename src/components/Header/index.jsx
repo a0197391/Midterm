@@ -78,7 +78,7 @@ export default function Header({ title, slogan }) {
                 </div>
                 <div className={styles.iconWrap}>
                     <div className={styles.lefttop}>
-                        <input className={styles.input} type="search" name="欄位名稱"/>
+                        <input className={styles.input} type="search" name="欄位名稱" placeholder="搜尋..." />
                         <UserInfo/>
                         {/* <BsPersonCircle className={styles.icon}/> */}
                         <CartSummary/>

@@ -87,7 +87,8 @@
   border:0;
   background-color:#EAE0F3;
   color:#DB497E;
-  border-radius:15px;
+  /*border-radius:15px;*/
+  border-radius:6px;
   height:30px;
   width:200px;
   align-self: center;
