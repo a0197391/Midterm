@@ -3,11 +3,14 @@ import { Helmet } from "react-helmet-async"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import LoginCard from '../components/Login';
+import { useSearchParams } from 'react-router-dom';
 
 function Login() {
    const {
       token: { colorBgBase, colorTextBase },
    } = theme.useToken();
+   const [searchParams] = useSearchParams();
+   const redirect = searchParams.get('redirect');
 
    return (
       <div className="mainLayout">
@@ -26,7 +29,7 @@ function Login() {
             slogan="An example made by Vite."
          />
          <div className="layoutContent container">
-            <LoginCard />
+            <LoginCard redirect={redirect} />
          </div>
          <Footer className="layoutFooter" />
       </div>
