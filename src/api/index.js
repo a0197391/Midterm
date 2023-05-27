@@ -117,33 +117,33 @@ export const getProductsByCategory = async ({ queryKey }) => {
 };
 
 
-// export const signInWithEmailPassword = async ({ email, password }) => {
-// };
-
-// export const registerWithEmailPassword = async ({ email, password, username }) => {
-// };
-
-
-
-
-export const login = async ({ email, password }) => {
-  await signInWithEmailAndPassword(
-    auth,
-    email,
-    password
-  );
+export const signInWithEmailPassword = async ({ email, password }) => {
 };
 
-export const register = async ({ name, email, password }) => {
-  const userCredential = await createUserWithEmailAndPassword(
-    auth,
-    email,
-    password
-  );
-  const user = userCredential?.user;
-  const docRef = doc(db, "users", user.uid);
-  await setDoc(docRef, {
-    name,
-  });
+export const registerWithEmailPassword = async ({ email, password, username }) => {
 };
+
+
+
+
+// export const login = async ({ email, password }) => {
+//   await signInWithEmailAndPassword(
+//     auth,
+//     email,
+//     password
+//   );
+// };
+
+// export const register = async ({ name, email, password }) => {
+//   const userCredential = await createUserWithEmailAndPassword(
+//     auth,
+//     email,
+//     password
+//   );
+//   const user = userCredential?.user;
+//   const docRef = doc(db, "users", user.uid);
+//   await setDoc(docRef, {
+//     name,
+//   });
+// };
 
