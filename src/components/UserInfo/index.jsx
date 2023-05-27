@@ -26,6 +26,7 @@ import { UserOutlined, UserSwitchOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import { useUserInfo } from "../../react-query";
 import styles from "./userinfo.module.css";
+import {BsPersonCircle } from "react-icons/bs";
 
 export default function UserInfo(props) {
    const { data: userInfo} = useUserInfo();
@@ -41,8 +42,8 @@ export default function UserInfo(props) {
    return (
       <div onClick={goToProfile} style={{ ...props.style }} className={styles.userInfo} >
          {userInfo
-            ? <UserOutlined className={styles.userInfoOutlined} />
-            : <UserSwitchOutlined className={styles.userInfoOutlined} />
+            ? <BsPersonCircle className={styles.userInfoOutlined} />
+            : <BsPersonCircle className={styles.userInfoOutlined} />
          }
          <p className={styles.userInfoText}>
             {!!userInfo?.name
