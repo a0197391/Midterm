@@ -11,7 +11,7 @@ import {RxHamburgerMenu} from "react-icons/rx";
 import UserInfo from "../UserInfo";
 // import {IoClose} from "react-icons/io";
 import 'animate.css';
-import AlertButton from "../BounceInButton";
+import {AlertButton,AlertButton2,AlertButton3,AlertButton4,AlertButton5} from "../BounceInButton";
 
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
@@ -95,16 +95,24 @@ export default function Header({ title, slogan }) {
                             </div>
                         </Link>
                         <Link to="/">
-                                <div className={styles.navItems}>最新消息</div>
+                            <div className={styles.navItems}>
+                                <AlertButton2/>
+                            </div>
                         </Link>
                         <Link to="/albums">
-                                <div className={styles.navItems}>商品一覽</div>
+                            <div className={styles.navItems}>
+                            <AlertButton3/>
+                            </div>
                         </Link>
                         <Link to="/">
-                                <div className={styles.navItems}>預購專區</div>
+                            <div className={styles.navItems}>
+                                <AlertButton4/>
+                            </div>
                         </Link> 
                         <Link to="/">
-                            <div className={styles.navItems}>單曲排行</div>
+                            <div className={styles.navItems}>
+                            <AlertButton5/>
+                            </div>
                         </Link>
                     </div> 
                     {/* <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} /> */}
