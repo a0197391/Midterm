@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Form, Input, Button } from "antd";
+import { Form, Input, Button,Row} from "antd";
 import styles from "./profilecard.module.css"
 import { useUpdateProfile, useLogout, useUserInfo } from "../../react-query";
 
@@ -32,6 +32,7 @@ const ProfileCard = ({ redirect }) => {
       className={styles.profileForm}
       form={form}
       initialValues={userInfo}
+      size="large"
     >
       <Form.Item
         label="姓名: "
@@ -79,24 +80,27 @@ const ProfileCard = ({ redirect }) => {
         <Input placeholder={userInfo?.tel || 'xxxx-xxxxxx'} />
       </Form.Item>
 
+   
       <Form.Item>
+      <Row style={{ width: "100%"}}justify="space-between">
         <Button
-          type="primary"
+          type="link"
+          size="large"
           htmlType="submit"
           className={styles.profileForm__button}
         >
-          Submit
+          儲存
         </Button>
-
         <Button
-          type="primary"
-          danger
-          style={{ marginTop: "1rem" }}
-          className={styles.profileForm__button}
+          type="default"
+          size="large"
+          // style={{ marginTop: "1rem" }}
+          className={styles.profileForm__button_logout}
           onClick={onLogout}
         >
-          Log out
+          登出
         </Button>
+        </Row>
       </Form.Item>
     </Form>
   );
