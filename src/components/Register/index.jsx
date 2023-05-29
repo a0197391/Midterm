@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import React, { useEffect } from "react";
 import { Form, Input, Checkbox, Button } from "antd";
 import { WarningOutlined } from "@ant-design/icons";
+import { BsFillPersonFill } from "react-icons/bs";
 
 import { useRegisterWithEmailPassword } from "../../react-query";
 import styles from "./register.module.css"
@@ -34,17 +35,21 @@ const RegisterCard = ({ redirect }) => {
     >
       <Form.Item
         name="name"
-        label="Your Name"
+        // label="Your Name"
         tooltip="What do you want others to call you?"
         rules={[
           {
             required: true,
-            message: "Please input your name!",
+            message: "請輸入姓名",
             whitespace: true,
           },
         ]}
       >
-        <Input />
+        {/* <Input /> */}
+        <Input
+           prefix={<BsFillPersonFill />}
+           placeholder="輸入姓名"
+        />
       </Form.Item>
       <Form.Item
         name="email"
