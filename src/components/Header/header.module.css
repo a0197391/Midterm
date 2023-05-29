@@ -83,7 +83,8 @@
 
 .lefttop{
   display: flex;
-  width: 350px;
+  width: 360px;
+  justify-content: space-around;
 }
 
 .input{
@@ -230,7 +231,7 @@
   }
   .lefttop{
     margin: 0px 10px;
-    width:260px;
+    width:300px;
   }
   .input{
     width:160px;
