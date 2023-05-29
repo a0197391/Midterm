@@ -98,6 +98,14 @@
 }
 @media  screen and (max-width:580px ){
 .item{
-   width:190px;
+   width:170px;
+}
+.icon{
+   width: 2.5rem;
+   height:2.5rem;
+}
+.icon2{
+   width: 2.5rem;
+   height:2.5rem;
 }
 }

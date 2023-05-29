@@ -279,7 +279,7 @@
      }
      .arrowR{
         margin-top: 20px;
-        margin-left:240px;
+        margin: left 2em;
      }
      .name {
       margin-bottom: 0.5rem;
@@ -373,6 +373,100 @@
      .arrowR{
         margin-top: 20px;
         margin-left:240px;
+     }
+     .name {
+      margin-bottom: 0.5rem;
+      font-size: 1.9rem;
+      margin-left: 15px;
+     }
+    .price {
+      font-size: 3.0rem;
+      font-family: Share Tech Mono;
+      margin-bottom: 0px;
+      margin-left: 15px;
+    }
+    .category {
+      opacity: 1;
+      margin-bottom: 0.2rem;
+      background-color:#F7D4E0;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 15px;
+      font-size: 16px;
+   }
+   .typeword{
+      margin-bottom: 50px;
+      margin-left: 15px;
+   }
+   .numtitle{
+      margin-left: 15px;
+   }
+   .addbtn{
+      margin-left: 15px;
+   }
+   .tdata{
+      margin-left: 15px;
+   }
+   .simtitle{
+      margin-top: 20px;
+      margin-left: 30px;
+   }
+   .pd{
+      color: #702FB1;
+      font-size: 1.15rem;
+      margin-left: 30px;
+   }
+   .pd2{
+      color: #702FB1;
+      font-size: 1.15rem;
+      margin-left: 30px;
+      margin-top: 10px;
+   }
+   
+   .songlist{
+      color: #DB497E;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-left: 30px;
+   }
+ }
+
+
+ @media  screen and (max-width:580px ){
+   .productsell{
+      display: table-column;
+      justify-content: space-between;
+   }
+   .info {
+      padding: 0 5.5rem;
+   }
+   .image {
+      width: 82%;
+      height: 82%;
+      /* margin-left: 100px;
+      margin-top: 30px; */
+      /* object-fit: cover;
+      object-position: center; */
+   }
+   .smallpic{
+      width: 500px;
+      margin-left: 100px;
+   }
+   .smpic{
+      width:76px;
+      margin-top: 20px;
+      margin-left: 10px; 
+      margin-right: 10px;
+     }
+     
+     .arrowL{
+      margin-left: 2px;
+      margin-top: 20px;
+     }
+     .arrowR{
+        margin-top: 20px;
+        margin: left 2.5em;
      }
      .name {
       margin-bottom: 0.5rem;

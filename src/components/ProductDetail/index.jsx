@@ -38,7 +38,7 @@ function ProductDetail({ product }) {
       >
       <div className={styles.productsell}>
             <Col
-                  xs={{ span: 24 }}
+                  xs={{ span: 22 }}
                   lg={{ span: 8 }}
             >
                <img
@@ -158,7 +158,7 @@ function ProductDetail({ product }) {
             </div>
             <Row gutter={[32, 32]}>
             <Col
-               xs={{ span: 32 }}
+               xs={{ span: 22 }}
                lg={{ span: 20 }}
                >  
                 <div className={styles.pd}>
@@ -169,7 +169,7 @@ function ProductDetail({ product }) {
             
             
             <div className={styles.songlist}>
-               收錄曲目
+              收錄曲目
             </div>
             <Row gutter={[32, 32]}>
             <Col

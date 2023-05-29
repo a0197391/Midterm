@@ -372,3 +372,21 @@ p{
     
 
 }
+
+
+
+@media  screen and (max-width:390px ){
+
+    .radio{
+        width:100vw;
+        height: 80vh;
+        text-align: center;
+    }
+    .Newest{
+        width:330px;
+        display:flex;
+        align-items: center;
+    }
+
+
+}
