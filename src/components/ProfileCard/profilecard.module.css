@@ -6,6 +6,37 @@
 }
 
 .profileForm__button {
-  width: 100%;
+  width:46%;
+  color:#ffffff;
+  background:linear-gradient(to right, #DB497E 20%,#9666C5 70%,#6087EB 100% );
+  transition: all 0.5s ease-in-out;
 }
 
+.profileForm__button:hover {
+  color:#ffffff;
+  background:linear-gradient(to right,#5980e4 20%, #9666C5 100%);
+}
+
+.profileForm__button_logout {
+  width: 46%;
+  background:#ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.profileForm__button_logout:hover {
+  color:#ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .btn{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.form{
+  display: flex;
+  flex-direction: row; 
+
+} */

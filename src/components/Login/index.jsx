@@ -105,14 +105,14 @@ const LoginCard = ({ redirect }) => {
                   登入
                </Button>
             )}
-            還不是會員? <Link to={`/auth/register?redirect=${redirect}`}>加入會員</Link>
+            <div className={styles.join}>還不是會員? <Link to={`/auth/register?redirect=${redirect}`}>加入會員</Link></div>
             {!isError ? (
                <div></div>
             ) : (
                <div className={styles.loginForm__errorWrap}>
                   <h3 className={styles.loginForm__errorTitle}>
                      <WarningOutlined />
-                     {"  "}There was a problem
+                     {"  "}發生錯誤
                   </h3>
                   <p className={styles.loginForm__errorMessage}>{error.message}</p>
                </div>
