@@ -198,13 +198,18 @@
   }
   .Drawericon{
     margin-top:55px;
+    margin-left:15px;
   }
   .logo{
-    width:70px;
+    width:80px;
     height:60px;
+    margin-left: 50px;
   }
   .iconWrap{
     margin:0px;
+    display:flex;
+    height:100px;
+    justify-content: flex-end;
   }
   .lefttop{
     margin: 0px 10px;
@@ -212,6 +217,7 @@
   }
   .input{
     width:160px;
+    height:30px;
   }
 
 }
