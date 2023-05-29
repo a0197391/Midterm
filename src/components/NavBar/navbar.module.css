@@ -27,6 +27,8 @@
 
 .navItemActive {
   /* composes: navItem; */
+  font-size:20px;
+  margin-left:65px;
   font-weight: bold;
   opacity: 0.6;
 }
