@@ -62,7 +62,30 @@
 .HomeItems{
    background-color: #E5D9F1;
 }
+.select{
+   width: 200px;
+}
 
+@media  screen and (max-width:768px ){
+   .container{
+      width:100vw !important;
+   }
+   .btn{
+      margin-left: 8px;
+      margin-right:0px;
+   }
+   .icon2{
+      margin-right:5px;
+   }
+}
+@media  screen and (max-width:580px ){
+   .select{
+      width:100px;
+   }
+   .p2nav{
+      width:94vw;
+   }
+}
 /* @media  screen and (max-width:768px ){
 
 } */

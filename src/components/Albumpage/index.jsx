@@ -55,8 +55,9 @@ function AlbumList() {
               size={"large"}
               defaultValue="最新上架"
               onChange={handleChange}
+              className={styles.select}
               style={{
-                width: 200,
+                
               }}
               options={[
                 {
