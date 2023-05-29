@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
+// import { IoMail} from "react-icons/io";
 
 import { useSignInWithEmailPassword } from "../../react-query";
 
@@ -31,6 +32,7 @@ const LoginCard = ({ redirect }) => {
          name="normal_login"
          className={styles.loginForm}
          form={form}
+         size="large"
          initialValues={{
             isRemember: true,
          }}
@@ -42,11 +44,11 @@ const LoginCard = ({ redirect }) => {
             rules={[
                {
                   type: "email",
-                  message: "The input is not valid E-mail!",
+                  message: "E-Mail格式錯誤",
                },
                {
                   required: true,
-                  message: "Please input your E-mail!",
+                  message: "請輸入E-Mail",
                },
             ]}
             hasFeedback
@@ -61,7 +63,7 @@ const LoginCard = ({ redirect }) => {
             rules={[
                {
                   required: true,
-                  message: "Please input your Password!",
+                  message: "請輸入密碼",
                },
             ]}
             hasFeedback
@@ -95,11 +97,12 @@ const LoginCard = ({ redirect }) => {
                </Button>
             ) : (
                <Button
-                  type="primary"
+                  type="link"
+                  size="large"
                   htmlType="submit"
                   className={styles.loginForm__button}
                >
-                  Log in
+                  登入
                </Button>
             )}
             Or <Link to={`/auth/register?redirect=${redirect}`}>register now!</Link>

@@ -15,7 +15,16 @@
 
 .loginForm__button {
   width: 100%;
+  color:#ffffff;
+  background:linear-gradient(to right, #DB497E 20%,#9666C5 70%,#6087EB 100% );
+  transition: all 0.5s ease-in-out;
 }
+
+.loginForm__button:hover {
+  color:#ffffff;
+  background:linear-gradient(to right,#5980e4 20%, #9666C5 100%);
+}
+
 
 .loginForm__successWrap {
   margin-top: 1rem;
