@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Input, Button, Checkbox } from 'antd';
-import { WarningOutlined, MailOutlined, LockOutlined } from '@ant-design/icons';
-// import { IoMail} from "react-icons/io";
+import { WarningOutlined, MailOutlined, LockOutlined,MailFilled} from '@ant-design/icons';
 
 import { useSignInWithEmailPassword } from "../../react-query";
 
@@ -54,7 +53,7 @@ const LoginCard = ({ redirect }) => {
             hasFeedback
          >
             <Input
-               prefix={<MailOutlined />}
+               prefix={<MailFilled />}
                placeholder="E-Mail"
             />
          </Form.Item>
@@ -74,13 +73,14 @@ const LoginCard = ({ redirect }) => {
                placeholder="Password"
             />
          </Form.Item>
+
          <Form.Item>
             <Link className={styles.loginForm__forgot} to={"/"}>
-               Forgot password
+               忘記密碼?
             </Link>
             <Form.Item name="remember" valuePropName="checked" noStyle>
                <Checkbox onChange={() => setIsRemember(!isRemember)} checked={isRemember}>
-                  Remember me
+                  記得我!
                </Checkbox>
             </Form.Item>
          </Form.Item>
@@ -105,7 +105,7 @@ const LoginCard = ({ redirect }) => {
                   登入
                </Button>
             )}
-            Or <Link to={`/auth/register?redirect=${redirect}`}>register now!</Link>
+            還不是會員? <Link to={`/auth/register?redirect=${redirect}`}>加入會員</Link>
             {!isError ? (
                <div></div>
             ) : (
