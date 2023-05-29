@@ -17,6 +17,8 @@ import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
 const { Option } = Select;
 
+
+
 export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
 
@@ -54,7 +56,9 @@ export default function Header({ title, slogan }) {
                                     <img src="/images/logo3.png" className={styles.dlogo} ></img>
                                 </Space>
                             }
-      >
+      >                  
+                            <UserInfo/>
+                       
                             <Link to="/" >
                                 <div className={styles.nav}>首頁</div>
                             </Link>
@@ -83,11 +87,12 @@ export default function Header({ title, slogan }) {
                 <div className={styles.iconWrap}>
                     <div className={styles.lefttop}>
                         <input className={styles.input} type="search" name="欄位名稱" placeholder="搜尋..." />
-                        <UserInfo/>
+                        <SetColorMode className={styles.coloricon} size={50}/>
+                        <UserInfo className={styles.UserInfo}/>
                         {/* <BsPersonCircle className={styles.icon}/> */}
                         <CartSummary/>
                     </div>
-                    {/* <SetColorMode/> */}
+                    
                     <div className={styles.navContentLeft}>
                         <Link to="/">
                             <div className={styles.navItems}>

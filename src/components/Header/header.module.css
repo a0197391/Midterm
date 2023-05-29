@@ -83,7 +83,7 @@
 
 .lefttop{
   display: flex;
-  width: 290px;
+  width: 350px;
 }
 
 .input{
@@ -96,6 +96,14 @@
   width:200px;
 
 } 
+
+.coloricon {
+  display: inline-block;
+  position: absolute !important;
+  top: 2.4rem;
+  right:5.5rem;
+  cursor: pointer;
+}
 
 .iconWrap {
   display:flex;
@@ -110,6 +118,11 @@
   /* grid-template-columns: repeat(2, 2.5rem); */
 }
 
+
+
+
+
+
 @media (min-width: 768px) {
   .headerTitle {
     font-size: 1.8rem;
@@ -122,7 +135,7 @@
 
 
 
-@media  screen and (max-width:768px ){/*平板排版*/
+@media  screen and (max-width:768px ){/*平板排版*/ 
   header{
       height:75px;
   }
@@ -186,6 +199,10 @@
     top: 2rem; */
     /* display: grid; */
     /* grid-template-columns: repeat(2, 2.5rem); */
+  }
+  
+  .UserInfo{
+    display:none;
   }
 
 }
