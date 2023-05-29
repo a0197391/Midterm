@@ -124,31 +124,35 @@ const RegisterCard = ({ redirect }) => {
           },
         ]}
       >
-        <Checkbox>
+        <Checkbox className="read">
           我已閱讀 <Link to={"/"}>相關條款</Link>
         </Checkbox>
       </Form.Item>
       <Form.Item>
         {isLoading ? (
           <Button
-            type="primary"
+            type="link"
+            size="large"
             className={styles.loginForm__button}
             htmlType="submit"
             loading
           >
-            Create your account
+            確認註冊
           </Button>
         ) : (
           <Button
-            type="primary"
+            type="link"
+            size="large"
             className={styles.loginForm__button}
             htmlType="submit"
           >
-            Create your account
+            確認註冊
           </Button>
         )}
+         <div className={styles.join}>
         已經是會員?{" "}
         <Link to={`/auth/login?redirect=${redirect}`}>點此登入</Link>
+        </div>
         {!isError ? (
           <div></div>
         ) : (
