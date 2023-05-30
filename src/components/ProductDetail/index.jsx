@@ -130,8 +130,8 @@ function ProductDetail({ product }) {
                   </p> */}
                   
                   <div className={styles.addbtn}>
-                     <AddToBasket  product={product} qty={qty} />
-                     <ImediateAdd  product={product} qty={qty} />
+                     <AddToBasket product={product} qty={qty} />
+                     <ImediateAdd product={product} qty={qty} />
                   </div>
                   
                   <img src="/images/transformdata.png" className={styles.tdata}></img>

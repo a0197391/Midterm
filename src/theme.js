@@ -3,7 +3,7 @@ import { theme } from "antd";
 const darkTheme = {
   algorithm: theme.darkAlgorithm,
   token: {
-    colorPrimary: "#1677ff",
+    colorPrimary: "14192C",
     colorBgBase	: "#070D24",
     colorTextBase: "#DB497E",
     colorTextFooter: "#ffffff",

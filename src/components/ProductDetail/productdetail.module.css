@@ -506,12 +506,12 @@
       margin-left: 30px;
    }
    .pd{
-      color: #702FB1;
+      color: #8E71AC;
       font-size: 1.15rem;
       margin-left: 30px;
    }
    .pd2{
-      color: #702FB1;
+      color: #8E71AC;
       font-size: 1.15rem;
       margin-left: 30px;
       margin-top: 10px;
@@ -525,3 +525,17 @@
       margin-left: 30px;
    }
  }
+
+
+
+
+ @media  screen and (max-width:390px ){
+
+   .arrowR{
+      margin-top: 20px;
+      margin-left: 200px;
+   }
+   .addbtn{
+      width: 100vw;
+   }
+}
