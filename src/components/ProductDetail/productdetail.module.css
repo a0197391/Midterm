@@ -434,24 +434,29 @@
 
 
  @media  screen and (max-width:580px ){
+   .container{
+      width:100vw;
+   }
    .productsell{
+      width:100vw;
       display: table-column;
       justify-content: space-between;
    }
    .info {
-      padding: 0 5.5rem;
+      padding: 0px;
    }
    .image {
-      width: 82%;
+      width:350px; 
       height: 82%;
+      margin:10px 80px ;
       /* margin-left: 100px;
       margin-top: 30px; */
       /* object-fit: cover;
       object-position: center; */
    }
    .smallpic{
-      width: 500px;
-      margin-left: 100px;
+      width: 380px;
+      margin-left: 75px;
    }
    .smpic{
       width:76px;
@@ -466,11 +471,11 @@
      }
      .arrowR{
         margin-top: 20px;
-        margin: left 2.5em;
+        margin-left: 20vw;
      }
      .name {
       margin-bottom: 0.5rem;
-      font-size: 48px;
+      font-size: 36px;
       margin-left: 15px;
      }
     .price {
@@ -516,6 +521,9 @@
       font-size: 1.15rem;
       margin-left: 30px;
       margin-top: 10px;
+   }
+   .description{
+      width:100vw;
    }
    
    .songlist{
