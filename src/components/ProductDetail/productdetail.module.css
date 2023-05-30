@@ -470,7 +470,7 @@
      }
      .name {
       margin-bottom: 0.5rem;
-      font-size: 1.9rem;
+      font-size: 48px;
       margin-left: 15px;
      }
     .price {
@@ -497,6 +497,7 @@
    }
    .addbtn{
       margin-left: 15px;
+      width:800px;
    }
    .tdata{
       margin-left: 15px;
@@ -535,8 +536,17 @@
       margin-top: 20px;
       margin-left: 200px;
    }
-   .addbtn{
+   /* .addbtn{
       width: 100vw;
       height: 100vh;
-   }
+      display: flex;
+      flex-direction: column;
+   } */
+   .addbtn {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: row; /* 將按鈕水平排列 */
+      justify-content: space-between; /* 將按鈕放置在容器的兩側 */
+    }
 }
