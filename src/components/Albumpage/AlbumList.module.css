@@ -82,9 +82,9 @@
    .select{
       width:100px;
    }
-   .p2nav{
+   /* .p2nav{
       width:94vw;
-   }
+   } */
    
 }
 /* @media  screen and (max-width:768px ){
@@ -102,16 +102,12 @@
    .select{
       width:100px;
    }
-   .p2nav{
-      width:94vw;
-   }
+   /* .p2nav{
+      width:100vw;
+   } */
    .btn{
       text-decoration-line: none;
       color:#DB497E;
-      font-size: 14px;
-      margin-top: 30px;
-      margin-left: 25px;
-      margin-right: 15px;
    }
 
 }
